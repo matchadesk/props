@@ -1,0 +1,364 @@
+{
+  "name": "My Funded Futures",
+  "platforms": [
+    "TradingView",
+    "Tradovate",
+    "NinjaTrader"
+  ],
+  "funded_amount": 3,
+  "eval_amount": "Unlimited",
+  "support_options": {
+    "help_center": "https://help.myfundedfutures.com/en/",
+    "email": "support@myfundedfutures.com",
+    "discord": "https://discord.gg/myfundedfutures",
+    "live_chat": "Live-chat (bottom-right)"
+  },
+  "payout_methods": [
+    "Rise, Crypto"
+  ],
+  "purchase_options": [
+    {
+      "name": "Core Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "price": {
+            "amount": 77,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 3,
+            "micro_scaling": 30,
+            "consistency_rule": 50,
+            "scaling_rule": "No scaling restrictions during evaluation",
+            "reset_cost": 77,
+            "minimum_days": 2,
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "drawdown_mode": "EOD trailing -> static after first payout",
+            "profit_target": null,
+            "max_position": 3,
+            "micro_scaling": 15,
+            "consistency_rule": null,
+            "scaling_rule": "Tiered: <=$1,000 -> 1 mini / 5 micro; $1,000-$2,000 -> 2 mini / 10 micro; >=$2,000 -> 3 mini / 15 micro",
+            "activation_fee": 0,
+            "reset_cost": 77,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 100,
+              "minimum_payout": 250,
+              "maximum_payout": 1000,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Scale Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "price": {
+            "amount": 127,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 3,
+            "micro_scaling": 30,
+            "consistency_rule": 50,
+            "scaling_rule": "No scaling restrictions during evaluation",
+            "reset_cost": 127,
+            "minimum_days": 2,
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "drawdown_mode": "EOD trailing -> static after first payout",
+            "profit_target": null,
+            "max_position": 9,
+            "micro_scaling": 45,
+            "consistency_rule": null,
+            "scaling_rule": "Multi-tier; up to 9 mini / 45 micro when >= $6,000 buffer",
+            "activation_fee": 0,
+            "reset_cost": 127,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 100,
+              "minimum_payout": 250,
+              "maximum_payout": null,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 267,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 6000,
+            "max_drawdown": 3000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 6,
+            "micro_scaling": 60,
+            "consistency_rule": 50,
+            "scaling_rule": "No scaling restrictions during evaluation",
+            "reset_cost": 267,
+            "minimum_days": 2,
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "drawdown_mode": "EOD trailing -> static after first payout",
+            "profit_target": null,
+            "max_position": 9,
+            "micro_scaling": 45,
+            "consistency_rule": null,
+            "scaling_rule": "Multi-tier; up to 9 mini / 45 micro when >= $6,000 buffer",
+            "activation_fee": 0,
+            "reset_cost": 267,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 250,
+              "maximum_payout": null,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 377,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 9000,
+            "max_drawdown": 4500,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 9,
+            "micro_scaling": 90,
+            "consistency_rule": 50,
+            "scaling_rule": "No scaling restrictions during evaluation",
+            "reset_cost": 377,
+            "minimum_days": 2,
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 4500,
+            "drawdown_mode": "EOD trailing -> static after first payout",
+            "profit_target": null,
+            "max_position": 9,
+            "micro_scaling": 45,
+            "consistency_rule": null,
+            "scaling_rule": "Multi-tier; up to 9 mini / 45 micro when >= $6,000 buffer",
+            "activation_fee": 0,
+            "reset_cost": 377,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 300,
+              "minimum_payout": 250,
+              "maximum_payout": null,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pro Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "price": {
+            "amount": 227,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 3,
+            "micro_scaling": 30,
+            "consistency_rule": 50,
+            "scaling_rule": "No scaling restrictions during evaluation",
+            "reset_cost": 227,
+            "minimum_days": 2,
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "drawdown_mode": "EOD trailing -> static after first payout",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": 5,
+            "consistency_rule": null,
+            "scaling_rule": "Fixed 5 mini / 5 micro; news trading not allowed",
+            "activation_fee": 0,
+            "reset_cost": 227,
+            "payout_rules": {
+              "minimum_days": 14,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 1000,
+              "maximum_payout": 100000,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 344,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 6000,
+            "max_drawdown": 3000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 6,
+            "micro_scaling": 60,
+            "consistency_rule": 50,
+            "scaling_rule": "No scaling restrictions during evaluation",
+            "reset_cost": 344,
+            "minimum_days": 2,
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "drawdown_mode": "EOD trailing -> static after first payout",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": 10,
+            "consistency_rule": null,
+            "scaling_rule": "Fixed 10 mini / 10 micro; news trading not allowed",
+            "activation_fee": 0,
+            "reset_cost": 344,
+            "payout_rules": {
+              "minimum_days": 14,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 1000,
+              "maximum_payout": 100000,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 477,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 9000,
+            "max_drawdown": 4500,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 9,
+            "micro_scaling": 90,
+            "consistency_rule": 50,
+            "scaling_rule": "No scaling restrictions during evaluation",
+            "reset_cost": 477,
+            "minimum_days": 2,
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 4500,
+            "drawdown_mode": "EOD trailing -> static after first payout",
+            "profit_target": null,
+            "max_position": 15,
+            "micro_scaling": 15,
+            "consistency_rule": null,
+            "scaling_rule": "Fixed 15 mini / 15 micro; news trading not allowed",
+            "activation_fee": 0,
+            "reset_cost": 477,
+            "payout_rules": {
+              "minimum_days": 14,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 1000,
+              "maximum_payout": 100000,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 4:10 PM EST - auto-flatten at 4:10 PM, reopening at 6 PM"
+          }
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do payouts work?",
+      "answer": "Payouts are available after 14 trading days with a minimum payout of $1,000. You keep 80% of profits with a 20% split to My Funded Futures. Maximum payout is $100,000.",
+      "source": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified"
+    },
+    {
+      "question": "What is the drawdown mode?",
+      "answer": "My Funded Futures uses end-of-day trailing drawdown that becomes static after your first payout. This provides flexibility during evaluation and stability during funded trading.",
+      "source": "https://help.myfundedfutures.com/en/articles/8348565-max-eod-trailing"
+    },
+    {
+      "question": "Is there an activation fee?",
+      "answer": "No, there are no activation fees for My Funded Futures accounts. You only pay the one-time evaluation fee to start trading.",
+      "source": "https://help.myfundedfutures.com/en/articles/11819568-changes-at-myfunded-futures"
+    },
+    {
+      "question": "What happens if I hit the drawdown limit?",
+      "answer": "If you hit the maximum drawdown limit, your account will be reset. You can purchase a reset for the same price as a new evaluation account.",
+      "source": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified"
+    },
+    {
+      "question": "What is the consistency rule?",
+      "answer": "The consistency rule requires you to maintain profitable trading days. For evaluation accounts, you need to maintain 50% consistency to pass to the funded phase.",
+      "source": "https://help.myfundedfutures.com/en/articles/11542487-consistency-rule"
+    },
+    {
+      "question": "Can I trade during news events?",
+      "answer": "No, all accounts must be flat/no orders +/-2 minutes around any data release. This restriction applies to evaluation, Sim-Funded, and Live accounts across Scale, Core, and Pro plans. Violation results in account breach.",
+      "source": "https://help.myfundedfutures.com/en/articles/8230009-news-trading-policy"
+    },
+    {
+      "question": "What is the minimum trading days to pass evaluation?",
+      "answer": "My Funded Futures requires 2 days minimum to pass evaluation across all plans (Scale, Core, Pro). This is explicitly stated in their 'Traders Evaluation Simplified' table.",
+      "source": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified"
+    },
+    {
+      "question": "What's the 14-day RISE payroll cycle and when do I get paid?",
+      "answer": "In Starter & Expert plans payouts are processed every 14 days through RISE once eligibility rules (winning-day count & consistency) are met; typical processing time: 6-12 h (Starter) or 1-3 biz days (Expert).",
+      "source": "https://help.myfundedfutures.com/en/articles/10064631-payout-policy-overview-best-and-fastest-prop-firm-payouts"
+    },
+    {
+      "question": "How does the Eval-to-Live $2K micro-scaling ladder work?",
+      "answer": "After passing E2L you start live with $2K balance, $500 DLL, 1 mini / 10 micros. Hitting profit milestones raises balance, DLL & contracts (e.g. $4K → 2 minis, etc.) up to custom scaling beyond $20K.",
+      "source": "https://help.myfundedfutures.com/en/articles/10685101-evaluation-to-live-scaling-program"
+    },
+    {
+      "question": "What are the Starter-plan minimum withdrawal amounts?",
+      "answer": "Starter: $100 (25K), $200 (50K), $300 (100+ K). Expert: $1,000 minimum.",
+      "source": "https://help.myfundedfutures.com/en/articles/10064631-payout-policy-overview"
+    }
+  ]
+}

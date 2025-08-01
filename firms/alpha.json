@@ -1,0 +1,409 @@
+{
+  "name": "Alpha Futures",
+  "platforms": [
+    "Tradovate",
+    "TradingView"
+  ],
+  "funded_amount": 3,
+  "eval_amount": "Unlimited",
+  "support_options": {
+    "help_center": "https://help.alpha-futures.com/en/articles/9867976-completing-kyc",
+    "email": "support@alpha-futures.com",
+    "discord": "https://discord.gg/W5bqSJmd7N",
+    "live_chat": "Live-chat bubble on dashboard"
+  },
+  "payout_methods": [
+    "ACH",
+    "Wire",
+    "SWIFT",
+    "Wise",
+    "Rise"
+  ],
+  "purchase_options": [
+    {
+      "name": "Zero Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "price": {
+            "amount": 99,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2000,
+            "daily_drawdown": 1000,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 3,
+            "micro_scaling": 30,
+            "consistency_rule": null,
+            "scaling_rule": "Scaling Plan (qualified only)",
+            "reset_cost": 79,
+            "minimum_days": 2,
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": 1000,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 3,
+            "micro_scaling": 30,
+            "consistency_rule": 40,
+            "scaling_rule": "Scaling Plan",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 200,
+              "maximum_payout": 1500,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 199,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 6000,
+            "max_drawdown": 4000,
+            "daily_drawdown": 2000,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 6,
+            "micro_scaling": 60,
+            "consistency_rule": null,
+            "scaling_rule": "Scaling Plan (qualified only)",
+            "reset_cost": 159,
+            "minimum_days": 2,
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          },
+          "funded_rules": {
+            "max_drawdown": 4000,
+            "daily_drawdown": 2000,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 6,
+            "micro_scaling": 60,
+            "consistency_rule": 40,
+            "scaling_rule": "Scaling Plan",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 200,
+              "maximum_payout": 3000,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Standard Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "price": {
+            "amount": 79,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 5,
+            "micro_scaling": 50,
+            "consistency_rule": 50,
+            "scaling_rule": "Scaling Plan (qualified only)",
+            "reset_cost": 59,
+            "minimum_days": 2,
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": 1000,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": 50,
+            "consistency_rule": 40,
+            "scaling_rule": "Scaling Plan",
+            "activation_fee": 149,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 0,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 200,
+              "maximum_payout": 15000,
+              "payout_split": "70/80/90 tiered"
+            },
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 159,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 6000,
+            "max_drawdown": 4000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 10,
+            "micro_scaling": 100,
+            "consistency_rule": 50,
+            "scaling_rule": "Scaling Plan (qualified only)",
+            "reset_cost": 129,
+            "minimum_days": 2,
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          },
+          "funded_rules": {
+            "max_drawdown": 4000,
+            "daily_drawdown": 2000,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": 100,
+            "consistency_rule": 40,
+            "scaling_rule": "Scaling Plan",
+            "activation_fee": 149,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 0,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 200,
+              "maximum_payout": 15000,
+              "payout_split": "70/80/90 tiered"
+            },
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 239,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 9000,
+            "max_drawdown": 6000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 15,
+            "micro_scaling": 150,
+            "consistency_rule": 50,
+            "scaling_rule": "Scaling Plan (qualified only)",
+            "reset_cost": 199,
+            "minimum_days": 2,
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          },
+          "funded_rules": {
+            "max_drawdown": 6000,
+            "daily_drawdown": 3000,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 15,
+            "micro_scaling": 150,
+            "consistency_rule": 40,
+            "scaling_rule": "Scaling Plan",
+            "activation_fee": 149,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 0,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 200,
+              "maximum_payout": 15000,
+              "payout_split": "70/80/90 tiered"
+            },
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Advanced Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "price": {
+            "amount": 139,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 4000,
+            "max_drawdown": 1750,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 5,
+            "micro_scaling": 50,
+            "consistency_rule": 50,
+            "scaling_rule": "No scaling plan",
+            "reset_cost": 139,
+            "minimum_days": 2,
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          },
+          "funded_rules": {
+            "max_drawdown": 1750,
+            "daily_drawdown": "2% of account balance",
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": 50,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling plan",
+            "activation_fee": 149,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 1000,
+              "maximum_payout": 15000,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 279,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 8000,
+            "max_drawdown": 3500,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 10,
+            "micro_scaling": 100,
+            "consistency_rule": 50,
+            "scaling_rule": "No scaling plan",
+            "reset_cost": 279,
+            "minimum_days": 2,
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          },
+          "funded_rules": {
+            "max_drawdown": 3500,
+            "daily_drawdown": "2% of account balance",
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": 100,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling plan",
+            "activation_fee": 149,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 1000,
+              "maximum_payout": 15000,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 419,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 12000,
+            "max_drawdown": 5250,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 15,
+            "micro_scaling": 150,
+            "consistency_rule": 50,
+            "scaling_rule": "No scaling plan",
+            "reset_cost": 419,
+            "minimum_days": 2,
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          },
+          "funded_rules": {
+            "max_drawdown": 5250,
+            "daily_drawdown": "2% of account balance",
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 15,
+            "micro_scaling": 150,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling plan",
+            "activation_fee": 149,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 1000,
+              "maximum_payout": 15000,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:20 PM ET - all trades closed by 16:20"
+          }
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do payouts work?",
+      "answer": "Payouts are available after 5 trading days with a minimum of $200 profit per day. You keep 90% of profits with a 10% split to Alpha Futures. Minimum payout is $1,000 with a maximum of $15,000.",
+      "source": "https://alphafutures.com/"
+    },
+    {
+      "question": "What is the daily drawdown limit?",
+      "answer": "The daily drawdown limit is 2% of your account balance. This provides flexibility as your account grows while maintaining risk management.",
+      "source": "https://alphafutures.com/"
+    },
+    {
+      "question": "Is there an activation fee?",
+      "answer": "Yes, there is a $149 activation fee for funded accounts. This is a one-time fee paid when you pass the evaluation phase.",
+      "source": "https://alphafutures.com/"
+    },
+    {
+      "question": "What happens if I hit the drawdown limit?",
+      "answer": "If you hit the maximum drawdown limit, your account will be reset. You can purchase a reset for the same price as a new evaluation account.",
+      "source": "https://alphafutures.com/"
+    },
+    {
+      "question": "What is the consistency rule?",
+      "answer": "The consistency rule requires you to maintain profitable trading days. For evaluation accounts, you need to maintain 50% consistency to pass to the funded phase.",
+      "source": "https://alphafutures.com/"
+    },
+    {
+      "question": "Can I trade during news events?",
+      "answer": "Evaluation accounts have no news-trading restrictions. Advanced Qualified funded accounts are permitted to trade news. Standard & Zero Qualified funded accounts must not execute orders +/-2 minutes around high-impact events, but may hold positions. Violations void profits in the 4-minute window.",
+      "source": "https://help.alpha-futures.com/en/articles/9492063-news-trading-policy"
+    },
+    {
+      "question": "What is the minimum trading days to pass evaluation?",
+      "answer": "Zero Plan accounts can pass in 1 day with no consistency requirement. Standard & Advanced evaluation accounts require 2 days minimum due to the 50% consistency rule. Your biggest day cannot exceed 50% of the profit target.",
+      "source": "https://help.alpha-futures.com/en/articles/9492048-consistency-rule"
+    },
+    {
+      "question": "Which payout rails are available (ACH, SWIFT, Wise, Rise)?",
+      "answer": "Alpha pays in USD via ACH, domestic wire, SWIFT, Wise or Rise; Rise users must sign an additional agreement.",
+      "source": "https://help.alpha-futures.com/en/articles/10443600-payout-methods"
+    },
+    {
+      "question": "How does the Path-to-Live salary & $10K static account work?",
+      "answer": "After five simulated payouts (or sooner by invitation) you move to live trading with a $10K static-drawdown account. Half your remaining sim-profits fund salary, paid monthly while live.",
+      "source": "https://help.alpha-futures.com/en/articles/10743344-path-to-live"
+    }
+  ]
+}

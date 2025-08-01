@@ -1,0 +1,287 @@
+{
+  "name": "Take Profit Trader",
+  "platforms": [
+    "TradingView",
+    "Tradovate",
+    "NinjaTrader",
+    "Quantower",
+    "Rithmic"
+  ],
+  "funded_amount": 5,
+  "eval_amount": "Unlimited",
+  "support_options": {
+    "help_center": "https://takeprofittrader.com/playbook",
+    "email": "support@takeprofittrader.com",
+    "live_chat": "Site chat widget"
+  },
+  "payout_methods": [
+    "ACH/Plaid",
+    "PayPal",
+    "Wise"
+  ],
+  "purchase_options": [
+    {
+      "name": "Test Account",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 150,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 1500,
+            "max_drawdown": 1500,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 3,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling restrictions during test",
+            "reset_cost": 100,
+            "minimum_days": 5,
+            "trading_hours": "6:00 PM -> 5:00 PM EST - futures positions may only be open during these hours"
+          },
+          "funded_rules": {
+            "max_drawdown": 1500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 3,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling plan; same size as test",
+            "activation_fee": 130,
+            "reset_cost": 449,
+            "payout_rules": {
+              "minimum_days": 0,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 1500,
+              "maximum_payout": null,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 5:00 PM EST - futures positions may only be open during these hours"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 170,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 6,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling restrictions during test",
+            "reset_cost": 100,
+            "minimum_days": 5,
+            "trading_hours": "6:00 PM -> 5:00 PM EST - futures positions may only be open during these hours"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 6,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling plan; same size as test",
+            "activation_fee": 130,
+            "reset_cost": 649,
+            "payout_rules": {
+              "minimum_days": 0,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 2000,
+              "maximum_payout": null,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 5:00 PM EST - futures positions may only be open during these hours"
+          }
+        },
+        {
+          "size": 75000,
+          "price": {
+            "amount": 245,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 4500,
+            "max_drawdown": 2500,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 9,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling restrictions during test",
+            "reset_cost": 100,
+            "minimum_days": 5,
+            "trading_hours": "6:00 PM -> 5:00 PM EST - futures positions may only be open during these hours"
+          },
+          "funded_rules": {
+            "max_drawdown": 2500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 9,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling plan; same size as test",
+            "activation_fee": 130,
+            "reset_cost": 799,
+            "payout_rules": {
+              "minimum_days": 0,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 2500,
+              "maximum_payout": null,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 5:00 PM EST - futures positions may only be open during these hours"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 330,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 6000,
+            "max_drawdown": 3000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 12,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling restrictions during test",
+            "reset_cost": 100,
+            "minimum_days": 5,
+            "trading_hours": "6:00 PM -> 5:00 PM EST - futures positions may only be open during these hours"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 12,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling plan; same size as test",
+            "activation_fee": 130,
+            "reset_cost": 999,
+            "payout_rules": {
+              "minimum_days": 0,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 3000,
+              "maximum_payout": null,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 5:00 PM EST - futures positions may only be open during these hours"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 360,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 9000,
+            "max_drawdown": 4500,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 15,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling restrictions during test",
+            "reset_cost": 100,
+            "minimum_days": 5,
+            "trading_hours": "6:00 PM -> 5:00 PM EST - futures positions may only be open during these hours"
+          },
+          "funded_rules": {
+            "max_drawdown": 4500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 15,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling plan; same size as test",
+            "activation_fee": 130,
+            "reset_cost": 1499,
+            "payout_rules": {
+              "minimum_days": 0,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 4500,
+              "maximum_payout": null,
+              "payout_split": "80/20"
+            },
+            "trading_hours": "6:00 PM -> 5:00 PM EST - futures positions may only be open during these hours"
+          }
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do payouts work?",
+      "answer": "Payouts are available immediately with no minimum trading days required. You keep 80% of profits with a 20% split to Take Profit Trader. Minimum payouts range from $2,500 to $4,500 depending on account size.",
+      "source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169070804125-Rule-1-Hit-Your-Profit-Target"
+    },
+    {
+      "question": "What is the difference between evaluation and funded accounts?",
+      "answer": "Evaluation accounts use end-of-day drawdown limits and require hitting profit targets. Funded accounts use intraday drawdown limits and have no profit targets, but have higher minimum payout requirements.",
+      "source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15170265979165-Rule-3-Do-Not-Hit-End-Of-Day-EOD-Maximum-Trailing-Drawdown"
+    },
+    {
+      "question": "Is there an activation fee?",
+      "answer": "Yes, there is a $130 activation fee for funded accounts (if not omited due to a special offer). This is a one-time fee paid when you pass the evaluation phase.",
+      "source": "https://takeprofittrader.com/"
+    },
+    {
+      "question": "What happens if I hit the drawdown limit?",
+      "answer": "If you hit the maximum drawdown limit, your account will be reset. You can purchase a reset for $100 for evaluation accounts or $799-$1,499 for funded accounts depending on size.",
+      "source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15140989806493-What-Is-An-Account-Reset-How-Can-I-Reset-My-Account"
+    },
+    {
+      "question": "What is the consistency rule?",
+      "answer": "Take Profit Trader does not have a specific consistency rule. You are free to trade as you wish as long as you stay within the drawdown limits.",
+      "source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169066911133-Rule-2-Do-Not-Exceed-Maximum-Position-Size"
+    },
+    {
+      "question": "How do I move from Pro to Pro+ account?",
+      "answer": "Once eligible for PRO+ upgrade, you'll receive an official invitation via email. This happens when you consistently withdraw meaningful profits over an extended period, or achieve $10,000 in profit within a single trading day on a PRO account. The setup takes 4-6 business days with no additional costs.",
+      "source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15171978600349-PRO-Account-Upgrade-Process-Overview-and-Guidelines"
+    },
+    {
+      "question": "Is there a minimum of 5 trading days to pass an evaluation?",
+      "answer": "Yes, there is a minimum of 5 trading days required to pass an evaluation. This is an explicit requirement regardless of any consistency rules.",
+      "source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169066911133-Rule-2-Do-Not-Exceed-Maximum-Position-Size"
+    },
+    {
+      "question": "Can I trade during news events?",
+      "answer": "Evaluation accounts have no explicit news trading rules. For funded PRO & PRO+ accounts, you must be flat/no orders +/-1 minute around CPI, NFP, FOMC minutes, plus Crude-Inventory & Bond-Auction blocks for related products. Violation closes the account.",
+      "source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15171769361053-Are-the-rules-the-same"
+    },
+    {
+      "question": "What is the minimum trading days to pass evaluation?",
+      "answer": "Take Profit Trader requires 5 days minimum to pass evaluation as stated in Rule 5: 'Show trades over a minimum of 5 trading days.' This is an explicit requirement regardless of consistency rules.",
+      "source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15170316538013-Rule-5-Be-Consistent"
+    },
+    {
+      "question": "Which payout option should I pick: Plaid, PayPal or Wise?",
+      "answer": "Plaid (instant ACH) - U.S. banks only. PayPal or Wise - for international withdrawals. Select in the dashboard; PayPal may charge additional fees.",
+      "source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172296875165-Payout-system"
+    },
+    {
+      "question": "What is the 'buffer zone' in a PRO account and why keep it?",
+      "answer": "You can withdraw 80% of profits once balance exceeds the max-drawdown by that same amount (e.g. $50K acct → need $52K). Keeping the buffer preserves drawdown room; pulling it early can restrict trading.",
+      "source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172219527581-PRO-Account-Profit-Split-Withdrawal-Rules"
+    },
+    {
+      "question": "Is there a $50 fee on small (< $250) withdrawals?",
+      "answer": "Yes. Withdrawals ≤ $250 incur a flat $50 fee; all larger withdrawals are fee-free (TPT side - PayPal may still apply processing fees).",
+      "source": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172354954525-Withdrawal-Fees"
+    }
+  ]
+}

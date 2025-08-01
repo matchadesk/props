@@ -1,0 +1,421 @@
+{
+    "name": "General",
+    "purchase_options": [],
+  "faq": [
+    {
+      "question": "What are the different types of prop trading accounts?",
+      "answer": "Prop firms offer two main account types: evaluation accounts (where you prove your skills first) and funded accounts (where you trade with real money immediately). Some firms offer both, while others only offer evaluation accounts that lead to funded accounts.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "How much do activation fees cost across different firms?",
+      "answer": "Activation fees vary significantly: some firms charge nothing (Topstep, FundedNext, FundingTicks, Lucid, MFFU), while others charge $85 (Apex), $125 (Tradeify Advanced), $130 (DayTraders Full Account, TPT), or $149 (Alpha Futures).",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the typical payout splits in prop trading?",
+      "answer": "Payout splits range from 100% trader profit (Apex, DayTraders) to 80/20 splits (MFFU, TPT). Most firms use 90/10 splits (Tradeify, Alpha Futures, FundingTicks, Lucid). Some have complex structures like Topstep (100% up to $10K, then 90/10) or FundedNext (withdrawal caps until 5 payouts, then 100% of profits).",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "How long does it take to pass evaluation?",
+      "answer": "Minimum trading days vary by firm: 1 day (Apex, Tradeify), 2 days (Topstep, Alpha Futures, DayTraders, Lucid, MFFU), 3 days (FundedNext, FundingTicks), or 5 days (Take Profit Trader).",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What pricing models do prop firms use?",
+      "answer": "Prop firms use either monthly subscriptions (Apex, Topstep, Alpha Futures, Tradeify, FundingTicks, Lucid, TPT) or one-time fees (DayTraders, FundedNext, MFFU). Some firms offer both options.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms offer straight-to-funded accounts?",
+      "answer": "Firms that offer both evaluation and funded accounts include Tradeify (Lightning Funded), DayTraders (S2F), FundingTicks (Zero), and Lucid (LucidDirect). These allow you to start trading with real money immediately without an evaluation phase.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What account sizes are available across prop firms?",
+      "answer": "Account sizes range from $25,000 to $300,000. Most firms offer $25K, $50K, and $100K accounts. Some firms like Apex and DayTraders offer larger accounts up to $300K, while others like Topstep start at $50K minimum.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "How much do reset costs cost when you fail evaluation?",
+      "answer": "Reset costs vary significantly: $45-197 (Tradeify), $49-149 (Topstep), $59-419 (Alpha Futures), $59-251 (FundedNext), $77-477 (MFFU), $80-100 (Apex), or $100 (TPT), etc.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the minimum payout amounts across different firms?",
+      "answer": "Minimum payouts range from $200 to $4,500. Most firms require $500 minimum, while some like Alpha Futures start at $200, and TPT requires $1,500-4,500 depending on account size. FundingTicks has the widest range: $250-2,500.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "How many trading days do you need before taking payouts?",
+      "answer": "Most firms require 5-10 trading days before payouts: 5 days (Alpha Futures, FundedNext, FundingTicks, MFFU), 7 days (Tradeify), 8 days (Apex, DayTraders), or 10 days (Lucid). Some firms like TPT have no minimum days.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the maximum position sizes allowed?",
+      "answer": "Position limits vary by account size and firm. Most firms allow 1-15 contracts, with larger accounts getting more contracts. Apex allows up to 35 contracts on $300K accounts, while smaller accounts typically allow 1-5 contracts.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What consistency rules do prop firms have?",
+      "answer": "Consistency rules range from 20% to 50%. Most common is 50% (Topstep, Alpha Futures, DayTraders, Lucid, MFFU), meaning your biggest day can't exceed 50% of your profit target. Some firms have 20-40% rules, while TPT has no consistency rule.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What types of drawdown limits do prop firms use?",
+      "answer": "Firms use different drawdown modes: intraday (Apex, Tradeify, TPT), end-of-day (Alpha Futures, FundingTicks, Lucid, MFFU), or trailing drawdown (Topstep, FundedNext, DayTraders). Some firms use static drawdowns that don't move.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Do prop firms have maximum payout limits?",
+      "answer": "Some firms have maximum payout limits: Alpha Futures ($1,500-15,000), DayTraders ($1,000-5,000), FundedNext ($800-2,500), FundingTicks ($1,000-5,000), MFFU ($1,000-100,000), Topstep ($5,000). Others like Apex, Tradeify, Lucid, and TPT have no maximum limits.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What's the difference between monthly and one-time fees?",
+      "answer": "Monthly fees (Apex, Topstep, Alpha Futures, Tradeify, FundingTicks, Lucid, TPT) require ongoing payments but lower upfront costs. One-time fees (DayTraders, FundedNext, MFFU) have higher upfront costs but no ongoing payments. Some firms offer both options.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the fastest firms to get funded with?",
+      "answer": "Apex and Tradeify allow passing evaluation in just 1 day. Most firms require 2 days (Topstep, Alpha Futures, DayTraders, Lucid, MFFU) or 3 days (FundedNext, FundingTicks). TPT requires 5 days minimum.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms have the lowest activation fees?",
+      "answer": "FundedNext, FundingTicks, Lucid, and MFFU have no activation fees. Apex charges $130, Tradeify charges $125 for Advanced accounts, DayTraders charges $130 for Full accounts, TPT charges $130, Topstep charges $149, and Alpha Futures charges $149.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the most expensive firms to trade with?",
+      "answer": "Alpha Futures and Topstep have the highest activation fee at $149, followed by TPT and DayTraders at $130, Tradeify at $125, and Apex at $130. However, firms with no activation fees may have higher monthly or one-time fees.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms offer the largest account sizes?",
+      "answer": "Apex and DayTraders offer the largest accounts up to $300,000. Most firms max out at $100K-150K. Topstep starts at $50K minimum, while most other firms start at $25K.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the minimum account sizes available?",
+      "answer": "Most firms start at $25,000 minimum accounts. Topstep has the highest minimum at $50,000. Alpha Futures, Lucid, and MFFU start at $50K, while most others start at $25K.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms have the most flexible position sizing?",
+      "answer": "Apex allows the most contracts (up to 35 on $300K accounts), followed by DayTraders (up to 20 contracts). Most firms allow 1-15 contracts depending on account size. Smaller accounts typically allow 1-5 contracts.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the highest minimum payout requirements?",
+      "answer": "TPT has the highest minimum payouts at $1,500-4,500 depending on account size. Most firms require $500 minimum, while some like Alpha Futures start at $200. FundingTicks has a wide range from $250-2,500.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms have the fastest payout schedules?",
+      "answer": "TPT has no minimum trading days for payouts. Most firms require 5-10 days: 5 days (Alpha Futures, FundedNext, FundingTicks, MFFU), 7 days (Tradeify), 8 days (Apex, DayTraders), or 10 days (Lucid).",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the most restrictive consistency rules?",
+      "answer": "Most firms use 50% consistency rules, meaning your biggest day can't exceed 50% of your profit target. Some firms have lower requirements: 20% (Tradeify Lightning, LucidDirect), 25% (FundingTicks), 30% (Apex, DayTraders), or 40% (Alpha Futures, FundedNext, MFFU).",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the different drawdown tracking methods?",
+      "answer": "Firms use different drawdown tracking: intraday (real-time), end-of-day (calculated at market close), static (fixed amount), or trailing (moves with your profits). Some firms use combinations like 'EOD trailing that locks at initial trail + $100' (Lucid).",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms offer the best profit splits?",
+      "answer": "Apex and DayTraders offer 100% profit splits, meaning you keep all your profits. Most firms use 90/10 splits (Tradeify, Alpha Futures, FundingTicks, Lucid). MFFU and TPT use 80/20 splits. FundedNext has withdrawal caps until 5 payouts, then 100% of profits.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the most common account sizes?",
+      "answer": "The most common account sizes are $25,000, $50,000, and $100,000. Almost all firms offer these sizes. Some firms offer larger sizes up to $300,000 (Apex, DayTraders), while others have minimums of $50,000 (Topstep, Alpha Futures, Lucid, MFFU).",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms have the most flexible trading rules?",
+      "answer": "TPT has no consistency rule, allowing complete trading freedom. Most firms have 20-50% consistency rules. Firms with lower consistency requirements (20-30%) like Tradeify Lightning, LucidDirect, and Apex offer more flexibility than those with 50% rules.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the total costs to get funded?",
+      "answer": "Total costs include evaluation fees ($45-419), activation fees ($0-149), and potential reset costs ($45-477). Monthly firms require ongoing payments, while one-time fee firms have higher upfront costs but no ongoing fees. Some firms have no activation fees.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms have the highest maximum payouts?",
+      "answer": "MFFU offers the highest maximum payout at $100,000. Most firms have maximums of $1,000-5,000: Alpha Futures ($1,500-15,000), DayTraders ($1,000-5,000), FundedNext ($800-2,500), FundingTicks ($1,000-5,000), Topstep ($5,000). Some firms have no maximum limits.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the most restrictive position limits?",
+      "answer": "Smaller accounts have the most restrictive limits: 1 contract (Tradeify $25K, DayTraders $25K), 2 contracts (Apex $25K, FundedNext $25K, FundingTicks $25K), or 3 contracts (Alpha Futures $50K, MFFU $50K, TPT $25K). Larger accounts allow more contracts.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms have the most complex payout structures?",
+      "answer": "Topstep uses a tiered structure: 100% up to $10K, then 90/10. Most firms use simple splits: 100% (Apex, DayTraders), 90/10 (Tradeify, Alpha Futures, FundingTicks, Lucid), or 80/20 (MFFU, TPT).",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the different evaluation timeframes?",
+      "answer": "Evaluation timeframes vary significantly: 1 day (Apex, Tradeify), 2 days (Topstep, Alpha Futures, DayTraders, Lucid, MFFU), 3 days (FundedNext, FundingTicks), or 5 days (TPT). Firms with shorter timeframes allow faster funding.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms have the most expensive monthly fees?",
+      "answer": "Monthly fees vary by account size. Larger accounts cost more: Apex ($157-497), Alpha Futures ($59-419), Lucid ($89-699), TPT ($97-360), Topstep ($99-299), Tradeify ($69-339), FundingTicks ($99-299). One-time fee firms have no monthly costs.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the most common minimum payout amounts?",
+      "answer": "The most common minimum payout is $500 (Apex, Tradeify, DayTraders, Lucid). Some firms have lower minimums: $200-250 (Alpha Futures, FundedNext, MFFU), while others have higher minimums: $1,000-4,500 (TPT, some FundingTicks accounts).",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms offer the best value for money?",
+      "answer": "Firms with no activation fees (FundedNext, FundingTicks, Lucid, MFFU) offer good value. Apex and DayTraders offer 100% profit splits. Consider total costs including monthly fees vs one-time fees.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the different risk management approaches?",
+      "answer": "Firms use different risk management: intraday drawdowns (real-time monitoring), end-of-day drawdowns (calculated at close), trailing drawdowns (moves with profits), or static drawdowns (fixed amount). Some firms use combinations or have no daily loss limits.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which firms have the most flexible scaling options?",
+      "answer": "Most firms offer account scaling based on performance. Apex allows up to 20 PA accounts. FundedNext has Benchmark Days system. Some firms offer position size increases based on profits. Scaling rules vary significantly between firms.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the most important factors when choosing a prop firm?",
+      "answer": "Key factors include: evaluation timeframe (1-5 days), activation fees ($0-149), profit splits (80-100%), minimum payouts ($200-4,500), account sizes ($25K-300K), consistency rules (20-50%), drawdown modes, and total costs (monthly vs one-time fees).",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What is the process for submitting a request to receive a cashback rebate?",
+      "answer": "To receive a cashback rebate, you must submit a request to receive a cashback rebate. You can submit a request to receive a cashback rebate by clicking the source link below.",
+      "source": "https://smartpropfirm.com/cash-rebate"
+    },
+    {
+      "question": "What is the specific strategy for placing buy and sell stop orders (e.g., how many points away from the price, how many contracts)?",
+      "answer": "The specific strategy has been documented in the source link below. First join the discord server at https://discord.gg/smart , then click the source link below.",
+      "source": "https://discord.com/channels/935923651449094244/1081036572733997166/1394317508508647565"
+    },
+    {
+      "question": "Does using the \"SMART\" code qualify for rebates on resets and renewals, not just initial purchases?",
+      "answer": "Yes, using the \"SMART\" code qualifies for rebates on resets and renewals, although the rebate is not as high as the initial purchase if any applicable.",
+      "source": "https://smartpropfirm.com/cash-rebate"
+    },
+    {
+      "question": "How do you identify and draw a valid Breaker Block (BB)? What constitutes confirmation for entering a trade based on an ICT setup like a unicorn or breaker? Are there videos or tutorials explaining these strategies in detail? ",
+      "answer": "Brians has a video on this topic. You can find it in the source link below.",
+      "source": "https://www.youtube.com/watch?v=1yBEqouqeUs"
+    },
+    {
+        "question": "When does Brian Stream?",
+        "answer": "Brian streams every day at 10:00 AM EST for PM. You can find the stream in the source link below.",
+        "source": "https://www.youtube.com/@BrianStonk"
+    },
+    {
+        "question": "How can I sign up for the premium membership (monthly or yearly)?",
+        "answer": "You can sign up for the premium membership by joining the Whop, which will give you access to the Brain x Dhesi discord server at https://whop.com/dhesi-brian-monthly/",
+        "source": "https://discord.gg/cSdmjz48AU"
+    },
+    {
+        "question": "What can I copy trade with Replikanto?",
+        "answer": "Replikanto is for copy trading Ninjatrader accounts. As long as the account is authorized to use that platform, you can link it and trade with Replikanto.",
+        "source": "https://flowbots.ninja/product/replikanto/?v=5435c69ed3bc"
+    },
+    {
+        "question": "What can I trade with TradeSyncer?",
+        "answer": "TradeSyncer can trade with the following platforms: dxFeed, Tradovate, TradingView, ProjectX, Rithmic, and Volumetrica.",
+        "source": "https://tradesyncer.com/"
+    },
+    {
+        "question": "Can we get cashback from Apex?",
+        "answer": "No, Apex does not offer cashback even with the SMART code.",
+        "source": "Discord"
+    },
+    {
+        "question": "What is KYC?",
+        "answer": "KYC is a process that firms use to verify your identity. It is a requirement for all prop firms. You can find the KYC process in the source link below.",
+        "source": "https://www.thalesgroup.com/en/markets/digital-identity-and-security/banking-payment/issuance/id-verification/know-your-customer"
+    },
+    {
+      "question": "What trading platforms do prop firms support?",
+      "answer": "The most common platforms are Tradovate, NinjaTrader, TradingView, Rithmic, Quantower, and ProjectX. Some firms have their own platforms like TopstepX. Most firms support 2-5 different platforms, with Tradovate being the most widely supported.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which platform is best for beginners?",
+      "answer": "TradingView is often recommended for beginners due to its intuitive interface, excellent charting capabilities, and extensive educational resources. Tradovate is also beginner-friendly with its web-based platform and simple order entry. NinjaTrader offers powerful features but has a steeper learning curve.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which platform is best for advanced traders?",
+      "answer": "NinjaTrader is preferred by advanced traders for its powerful charting, extensive customization options, and advanced order types. Rithmic offers professional-grade features with low latency execution. Quantower provides advanced charting and analysis tools. TopstepX (ProjectX) is specifically designed for prop trading with integrated risk management.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the key differences between Tradovate and NinjaTrader?",
+      "answer": "Tradovate is web-based, making it accessible from anywhere with an internet connection, while NinjaTrader is desktop-based with more powerful features. Tradovate has simpler order entry and is more beginner-friendly, while NinjaTrader offers advanced charting, custom indicators, and extensive automation capabilities. NinjaTrader also has better backtesting and strategy development tools.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which platforms support mobile trading?",
+      "answer": "TradingView has excellent mobile apps for iOS and Android with full charting capabilities. Tradovate offers mobile apps for basic order management and monitoring. NinjaTrader has limited mobile functionality, primarily for monitoring positions. Most prop firms recommend using desktop platforms for active trading due to better execution speed and features.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the system requirements for different platforms?",
+      "answer": "Tradovate and TradingView are web-based and work on any modern browser. NinjaTrader requires Windows 10/11 with 8GB RAM minimum (16GB recommended) and a dedicated graphics card for optimal performance. Rithmic works on Windows and Mac with 4GB RAM minimum. Quantower requires Windows 7+ with 4GB RAM.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which platforms have the lowest latency?",
+      "answer": "Rithmic is known for its low-latency execution and is preferred by high-frequency traders. NinjaTrader with Rithmic connection offers excellent speed. Tradovate has competitive latency for web-based trading. TopstepX is optimized for speed with direct market access. TradingView has been shown to be much slower than the competition. Latency also depends on your internet connection and proximity to data centers.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the costs associated with different platforms?",
+      "answer": "Most prop firms provide platform access free with your account.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What platforms support paper trading?",
+      "answer": "Most platforms support paper trading for practice. TradingView offers excellent paper trading with real-time data. NinjaTrader has comprehensive paper trading with full feature access. Tradovate provides paper trading accounts. Most prop firms also offer evaluation accounts that simulate real trading conditions.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "Which platforms have the best customer support?",
+      "answer": "TradingView has excellent community support and extensive documentation. NinjaTrader offers comprehensive support with active forums and training resources. TopstepX provides dedicated support for their platform. Most platforms have Discord communities and extensive YouTube tutorials.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+      "question": "What are the trading hours for prop firms?",
+      "answer": "Most firms require positions to be closed by 4:59 PM ET (Apex, Tradeify, DayTraders), 4:20 PM ET (Alpha Futures), 4:10 PM ET (Topstep, FundedNext), or 4:45 PM EST (Lucid). MFFU has a 6:00 PM -> 4:10 PM EST window, TPT allows 6:00 PM -> 5:00 PM EST, and FundingTicks has no daily time restrictions.",
+      "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "Which firms have the most restrictive trading hours?",
+        "answer": "My Funded Futures has the most restrictive hours with a 1 hour 50 minute gap (4:10 PM -> 6:00 PM EST) where trading is not allowed. Take Profit Trader has a 1 hour gap (5:00 PM -> 6:00 PM EST). FundingTicks is the least restrictive with no daily time restrictions, allowing traders to hold positions overnight.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "How many funded accounts can I have at each firm?",
+        "answer": "Account limits vary significantly: Apex allows 20 funded accounts, Tradeify/Topstep/DayTraders/Lucid/TPT allow 5, Alpha Futures allows 3, MFFU allows 3, and FundedNext/FundingTicks use $300k total allocation limits instead of account counts.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "Which firm allows the most funded accounts?",
+        "answer": "Apex Trader Funding allows the most funded accounts at 20, which is significantly higher than other firms. Most firms limit funded accounts to 3-5, while FundedNext and FundingTicks use allocation-based limits of $300k total.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "How many evaluation accounts can I run simultaneously?",
+        "answer": "Most firms allow unlimited evaluation accounts (Apex, Tradeify, Topstep, Alpha Futures, FundedNext, FundingTicks, MFFU, TPT). DayTraders allows 15 evaluations, and Lucid allows 10 evaluations simultaneously.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "Which firms have the best customer support?",
+        "answer": "Most firms offer multiple support channels: Discord communities (Tradeify, Topstep, Alpha Futures, DayTraders, FundedNext, FundingTicks, Lucid), live chat (most firms), email support, and help centers. FundedNext, DayTraders, and Alpha Futures offer 24/7 live chat.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "Do prop firms have Discord communities?",
+        "answer": "Yes, most firms have active Discord communities: Tradeify, Topstep, Alpha Futures, DayTraders, FundedNext, FundingTicks, Lucid, and MFFU all have public Discord servers. TPT does not have an official Discord community.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "What's the fastest way to get support from prop firms?",
+        "answer": "For urgent issues (payout status, platform disconnections), use live chat or Discord for fastest response. Most firms offer 24/7 live chat (FundedNext, DayTraders, Alpha Futures). Discord communities are also very active for day-to-day updates and quick questions.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "What are the different news trading policies across prop firms?",
+        "answer": "News trading policies vary significantly: Most firms allow news trading (Apex, Tradeify, Topstep, DayTraders, Lucid, FundedNext) with general caution warnings. Some have specific restrictions: Alpha Futures (+/-2 minutes around high-impact events), FundingTicks (+/-1 minute for Tier-1 events), TPT (+/-1 minute for specific events), and MFFU (+/-2 minutes around any data release). Firms with restrictions typically void profits or close accounts for violations.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "Which firms have the most restrictive news trading policies?",
+        "answer": "My Funded Futures has the most restrictive policy - all accounts must be flat +/-2 minutes around any data release with account breach for violations. Take Profit Trader requires being flat +/-1 minute around CPI, NFP, FOMC minutes, plus Crude-Inventory & Bond-Auction blocks. Alpha Futures has +/-2 minute restrictions for high-impact events. FundingTicks restricts +/-1 minute for Tier-1 events (CPI, NFP, FOMC, PPI, Crude Inventories, Bond auctions).",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "Which firms have the most flexible news trading policies?",
+        "answer": "Tradeify has the most flexible policy - 'free reign is allowed' with no restrictions, just general volatility warnings. Apex, Topstep, DayTraders, and Lucid also have very flexible policies with no specific time restrictions, only general caution about volatility and slippage. These firms allow full news trading freedom.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "What is the best evaluation account for beginners and why?",
+        "answer": "Topstep and My Funded Futures are the best for beginners. Topstep offers excellent scaling plans, clear 2-day minimum requirement, and 100% profit up to $10K then 90/10. MFFU has no activation fees, simple one-time payment structure, and end-of-day trailing drawdown that becomes static after first payout. Both firms have straightforward rules and excellent customer support, making them ideal for traders new to prop trading.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "What are the best evaluation options for experienced traders?",
+        "answer": "Apex Trader Funding is the best option because it allows up to 20 funded accounts simultaneously and uses intra-day trailing drawdown which is more difficult overall vs EOD. Apex also offers 100% profit splits, no minimum trading days (can pass in 1 day), and no consistency rule during evaluation. Other strong options include Tradeify for fastest path (1 day minimum) with flexible news trading, FundedNext for withdrawal caps until 5 payouts then 100% of profits, and DayTraders for 100% profit splits with larger account sizes up to $300K.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "Which firms offer the best value for 50k accounts considering total costs?",
+        "answer": "Best value depends on timeframe: For quick funding (1-2 months): Tradeify Advanced at $194 total cost. For long-term (6+ months): FundedNext at $59/month with no activation fee. For one-time payment: DayTraders S2F at $370.50 with no ongoing fees. My Funded Futures at $77 one-time fee offers good value for those who prefer no monthly costs. Consider profit splits too - Apex and DayTraders offer 100% profit splits which can offset higher initial costs.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "How do consistency rules work in prop trading?",
+        "answer": "Consistency rules prevent traders from passing evaluation with a single large winning day. For example, a 50% consistency rule means your biggest trading day cannot exceed 50% of your total profit target. If you need $3,000 profit target, your biggest day can't exceed $1,500. This ensures you demonstrate consistent trading ability over multiple days rather than getting lucky once. Most firms use 20-50% consistency rules, with 50% being most common.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "What are the different drawdown modes and how do they work?",
+        "answer": "Drawdown modes determine how your maximum loss limit is tracked: 1) End-of-Day (EOD) Trailing - calculated at market close and moves up with your profits, giving you more room as you succeed. 2) Intraday Trailing - real-time monitoring that moves up with profits, account closes if you hit the limit during trading. 3) Static - fixed amount that never changes, no trailing movement. Most firms use EOD trailing as it's more flexible, while intraday trailing is stricter but provides real-time protection.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "What are profit targets and how do they work?",
+        "answer": "Profit targets are the amount you need to earn to pass evaluation. For example, a $3,000 profit target on a $50K account means you must earn $3,000 in profits while staying within drawdown limits. Once you hit the profit target, you pass to the funded phase. Most firms remove profit targets once you're funded, allowing unlimited profit potential. Some firms keep profit targets as ongoing requirements. Profit targets are typically 6-12% of account size.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "What is the difference between evaluation and funded accounts?",
+        "answer": "Evaluation accounts are practice accounts where you prove your trading skills. You trade with simulated money and must hit profit targets while staying within drawdown limits. Once you pass, you get a funded account with 'real' money. Funded accounts have different rules - usually no profit targets, but stricter drawdown limits and consistency requirements. Some firms offer 'straight-to-funded' accounts where you start with real money immediately without evaluation.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "How do position size limits work?",
+        "answer": "Position size limits control how many contracts you can trade simultaneously. Limits vary by account size: $25K accounts typically allow 1-5 contracts, $50K accounts allow 3-10 contracts, and $100K+ accounts allow 5-20+ contracts. Some firms use micro-scaling where you can trade more micro contracts (e.g., 10 micros = 1 mini). Position limits help manage risk and prevent overleveraging. Larger accounts get more position flexibility.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "What are daily loss limits and how do they work?",
+        "answer": "Daily loss limits (DLL) are the maximum amount you can lose in a single trading day. They're usually 2-6% of account size. For example, a $2,000 DLL on a $50K account means you can't lose more than $2,000 in one day. Some firms have no daily limits, only total drawdown limits. Daily limits help prevent catastrophic losses and encourage disciplined trading. Limits may be intraday (real-time) or end-of-day (calculated at close). Hitting DLL will disallow you from trading until the next day.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "What are activation fees and when do you pay them?",
+        "answer": "Activation fees are one-time charges when you pass evaluation and get funded. They range from $0 to $149. Some firms have no activation fees (FundedNext, FundingTicks, Lucid, MFFU), while others charge $85-149 (Apex, Alpha Futures, Topstep, TPT). You only pay activation fees once when moving from evaluation to funded. Some firms offer special promotions that waive activation fees. Consider activation fees when calculating total costs to get funded.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "How do reset costs work when you fail evaluation?",
+        "answer": "Reset costs are fees to restart your evaluation if you hit drawdown limits. Costs vary by account size and firm: $45-477 for most firms. Some firms offer free resets for evaluation accounts, while others charge the same price as a new account. Reset costs are typically the same, or lower than buying a new evaluation.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "What are the minimum trading day requirements?",
+        "answer": "Minimum trading days prevent passing evaluation with a single lucky trade. Requirements range from 1-5 days: Apex and Tradeify (1 day), Topstep and MFFU (2 days), FundedNext and FundingTicks (3 days), TPT (5 days). Some firms have no minimum days but use consistency rules instead. Minimum days ensure you demonstrate trading ability over time rather than getting lucky once. Firms with shorter minimums allow faster funding but may have stricter consistency rules.",
+        "source": "Based on analysis of all prop firm data"
+    },
+    {
+        "question": "How do payout rules work across different firms?",
+        "answer": "Payout rules vary significantly: Most firms require 5-10 trading days before payouts, with minimum daily profit requirements ($50-300/day). Minimum payouts range from $200-4,500. Some firms have maximum payout limits ($1,000-100,000), while others have no limits. Profit splits range from 80-100% to the trader. Some firms use progressive structures (Topstep: 100% up to $10K, then 90/10) or withdrawal caps (FundedNext: caps until 5 payouts, then 100%).",
+        "source": "Based on analysis of all prop firm data"
+    }
+  ]
+}

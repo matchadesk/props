@@ -1,0 +1,133 @@
+{
+  "name": "Tradeify Sources",
+  "platforms": "https://help.tradeify.co/en/articles/10468221-supported-platforms",
+  "funded_amount": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies",
+  "eval_amount": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies",
+  "payout_methods": "https://help.tradeify.co/en/articles/10495953-what-payout-methods-are-accepted",
+  "purchase_options": [
+    {
+      "name": "Advanced Challenge",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts",
+              "max_drawdown": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts",
+              "drawdown_mode": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts",
+              "max_position": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts",
+              "micro_scaling": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts",
+              "scaling_rule": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts",
+              "reset_cost": "https://www.tradeify.co/",
+              "price": "https://www.tradeify.co/",
+              "minimum_days": "https://help.tradeify.co/en/articles/10468320-rules-consistency-rule",
+              "trading_hours": "https://help.tradeify.co/en/articles/10495876-rules-permitted-times-to-trade"
+            },
+            "minimum_days": 1
+          },
+          "funded_rules": {
+            "sources": {
+              "profit_target": "https://help.tradeify.co/en/articles/10495932-lightning-funded-account-payout-policy",
+              "max_drawdown": "https://help.tradeify.co/en/articles/10495897-rules-trailing-max-drawdowns",
+              "daily_drawdown": "https://help.tradeify.co/en/articles/10495897-rules-trailing-max-drawdowns",
+              "drawdown_mode": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts",
+              "max_position": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts",
+              "micro_scaling": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts",
+              "consistency_rule": "https://help.tradeify.co/en/articles/10468320-rules-consistency-rule",
+              "scaling_rule": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts",
+              "activation_fee": "https://www.tradeify.co/",
+              "trading_hours": "https://help.tradeify.co/en/articles/10495876-rules-permitted-times-to-trade"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies",
+                "minimum_profit_per_day": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies",
+                "minimum_payout": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies",
+                "maximum_payout": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies",
+                "payout_split": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Growth Challenge",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "max_drawdown": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "daily_drawdown": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "drawdown_mode": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "max_position": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "micro_scaling": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "scaling_rule": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "reset_cost": "https://www.tradeify.co/",
+              "price": "https://www.tradeify.co/",
+              "minimum_days": "https://help.tradeify.co/en/articles/10468320-rules-consistency-rule",
+              "trading_hours": "https://help.tradeify.co/en/articles/10495876-rules-permitted-times-to-trade"
+            },
+            "minimum_days": 1
+          },
+          "funded_rules": {
+            "sources": {
+              "profit_target": "https://help.tradeify.co/en/articles/10495932-lightning-funded-account-payout-policy",
+              "max_drawdown": "https://help.tradeify.co/en/articles/10495897-rules-trailing-max-drawdowns",
+              "daily_drawdown": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "drawdown_mode": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "max_position": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "micro_scaling": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "consistency_rule": "https://help.tradeify.co/en/articles/10468320-rules-consistency-rule",
+              "scaling_rule": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "activation_fee": "https://help.tradeify.co/en/articles/10495915-growth-challenge-accounts",
+              "trading_hours": "https://help.tradeify.co/en/articles/10495876-rules-permitted-times-to-trade"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies",
+                "minimum_profit_per_day": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies",
+                "minimum_payout": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies",
+                "maximum_payout": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies",
+                "payout_split": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lightning Funded",
+      "type": "funded",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "funded_rules": {
+            "sources": {
+              "profit_target": "https://help.tradeify.co/en/articles/10495932-lightning-funded-account-payout-policy",
+              "max_drawdown": "https://help.tradeify.co/en/articles/10495938-lightning-funded-accounts",
+              "drawdown_mode": "https://help.tradeify.co/en/articles/10495938-lightning-funded-accounts",
+              "max_position": "https://help.tradeify.co/en/articles/10495938-lightning-funded-accounts",
+              "micro_scaling": "https://help.tradeify.co/en/articles/10495938-lightning-funded-accounts",
+              "consistency_rule": "https://help.tradeify.co/en/articles/10495938-lightning-funded-accounts",
+              "scaling_rule": "https://help.tradeify.co/en/articles/10495938-lightning-funded-accounts",
+              "activation_fee": "https://www.tradeify.co/",
+              "trading_hours": "https://help.tradeify.co/en/articles/10495876-rules-permitted-times-to-trade"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.tradeify.co/en/articles/10495932-lightning-funded-account-payout-policy",
+                "minimum_payout": "https://help.tradeify.co/en/articles/10495932-lightning-funded-account-payout-policy",
+                "payout_split": "https://help.tradeify.co/en/articles/10495932-lightning-funded-account-payout-policy"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

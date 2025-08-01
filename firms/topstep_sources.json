@@ -1,0 +1,133 @@
+{
+  "name": "Topstep Sources",
+  "platforms": "https://help.topstep.com/en/articles/11667498-important-changes-to-topstep-supported-platforms",
+  "funded_amount": "https://help.topstep.com/en/articles/8284218-multiple-express-funded-accounts",
+  "eval_amount": "https://help.topstep.com/en/articles/8284218-multiple-express-funded-accounts",
+  "payout_methods": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy",
+  "purchase_options": [
+    {
+      "name": "Trading Combine",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.topstep.com/en/articles/8284208-what-is-the-consistency-target",
+              "max_drawdown": "https://help.topstep.com/en/articles/8284204-what-is-the-maximum-loss-limit",
+              "daily_drawdown": "https://help.topstep.com/en/articles/8284207-what-is-the-daily-loss-limit-and-what-happens-if-i-exceed-it",
+              "max_position": "https://help.topstep.com/en/articles/8284209-what-does-maximum-position-size-mean",
+              "micro_scaling": "https://help.topstep.com/en/articles/8284209-what-does-maximum-position-size-mean",
+              "consistency_rule": "https://help.topstep.com/en/articles/8284208-what-is-the-consistency-target",
+              "scaling_rule": "https://help.topstep.com/en/articles/8284223-what-is-the-scaling-plan",
+              "reset_cost": "https://help.topstep.com/en/articles/8284128-what-is-the-reset",
+              "price": "https://help.topstep.com/en/articles/8284121-how-does-the-monthly-subscription-work",
+              "minimum_days": "https://www.topstep.com/faq/",
+              "trading_hours": "https://help.topstep.com/en/articles/8284206-when-and-what-products-can-i-trade"
+            },
+            "minimum_days": 2
+          },
+          "funded_rules": {
+            "sources": {
+              "profit_target": "https://help.topstep.com/en/articles/8284215-express-funded-account-parameters",
+              "max_drawdown": "https://help.topstep.com/en/articles/8284204-what-is-the-maximum-loss-limit",
+              "daily_drawdown": "https://help.topstep.com/en/articles/8284207-what-is-the-daily-loss-limit-and-what-happens-if-i-exceed-it",
+              "drawdown_mode": "https://help.topstep.com/en/articles/8284204-what-is-the-maximum-loss-limit",
+              "max_position": "https://help.topstep.com/en/articles/8284209-what-does-maximum-position-size-mean",
+              "consistency_rule": "https://help.topstep.com/en/articles/8284215-express-funded-account-parameters",
+              "scaling_rule": "https://help.topstep.com/en/articles/8284223-what-is-the-scaling-plan",
+              "activation_fee": "https://www.topstep.com/",
+              "reset_cost": "https://help.topstep.com/en/articles/8284216-express-funded-account-live-funded-account-faq-s",
+              "trading_hours": "https://help.topstep.com/en/articles/8284206-when-and-what-products-can-i-trade"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy",
+                "minimum_profit_per_day": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy",
+                "minimum_payout": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy",
+                "maximum_payout": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy",
+                "payout_split": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy"
+              }
+            }
+          }
+        },
+        {
+          "size": 100000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.topstep.com/en/articles/8284208-what-is-the-consistency-target",
+              "max_drawdown": "https://help.topstep.com/en/articles/8284204-what-is-the-maximum-loss-limit",
+              "daily_drawdown": "https://help.topstep.com/en/articles/8284207-what-is-the-daily-loss-limit-and-what-happens-if-i-exceed-it",
+              "max_position": "https://help.topstep.com/en/articles/8284209-what-does-maximum-position-size-mean",
+              "consistency_rule": "https://help.topstep.com/en/articles/8284208-what-is-the-consistency-target",
+              "scaling_rule": "https://help.topstep.com/en/articles/8284223-what-is-the-scaling-plan",
+              "reset_cost": "https://help.topstep.com/en/articles/8284128-what-is-the-reset",
+              "price": "https://help.topstep.com/en/articles/8284121-how-does-the-monthly-subscription-work",
+              "minimum_days": "https://www.topstep.com/faq/",
+              "trading_hours": "https://help.topstep.com/en/articles/8284206-when-and-what-products-can-i-trade"
+            },
+            "minimum_days": 2
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.topstep.com/en/articles/8284204-what-is-the-maximum-loss-limit",
+              "daily_drawdown": "https://help.topstep.com/en/articles/8284207-what-is-the-daily-loss-limit-and-what-happens-if-i-exceed-it",
+              "drawdown_mode": "https://help.topstep.com/en/articles/8284204-what-is-the-maximum-loss-limit",
+              "max_position": "https://help.topstep.com/en/articles/8284209-what-does-maximum-position-size-mean",
+              "scaling_rule": "https://help.topstep.com/en/articles/8284223-what-is-the-scaling-plan",
+              "activation_fee": "https://www.topstep.com/",
+              "reset_cost": "https://help.topstep.com/en/articles/8284216-express-funded-account-live-funded-account-faq-s",
+              "trading_hours": "https://help.topstep.com/en/articles/8284206-when-and-what-products-can-i-trade"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy",
+                "minimum_profit_per_day": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy",
+                "maximum_payout": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy",
+                "payout_split": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy"
+              }
+            }
+          }
+        },
+        {
+          "size": 150000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.topstep.com/en/articles/8284208-what-is-the-consistency-target",
+              "max_drawdown": "https://help.topstep.com/en/articles/8284204-what-is-the-maximum-loss-limit",
+              "daily_drawdown": "https://help.topstep.com/en/articles/8284207-what-is-the-daily-loss-limit-and-what-happens-if-i-exceed-it",
+              "max_position": "https://help.topstep.com/en/articles/8284209-what-does-maximum-position-size-mean",
+              "consistency_rule": "https://help.topstep.com/en/articles/8284208-what-is-the-consistency-target",
+              "scaling_rule": "https://help.topstep.com/en/articles/8284223-what-is-the-scaling-plan",
+              "reset_cost": "https://help.topstep.com/en/articles/8284128-what-is-the-reset",
+              "price": "https://help.topstep.com/en/articles/8284121-how-does-the-monthly-subscription-work",
+              "minimum_days": "https://www.topstep.com/faq/",
+              "trading_hours": "https://help.topstep.com/en/articles/8284206-when-and-what-products-can-i-trade"
+            },
+            "minimum_days": 2
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.topstep.com/en/articles/8284204-what-is-the-maximum-loss-limit",
+              "daily_drawdown": "https://help.topstep.com/en/articles/8284207-what-is-the-daily-loss-limit-and-what-happens-if-i-exceed-it",
+              "drawdown_mode": "https://help.topstep.com/en/articles/8284204-what-is-the-maximum-loss-limit",
+              "max_position": "https://help.topstep.com/en/articles/8284209-what-does-maximum-position-size-mean",
+              "scaling_rule": "https://help.topstep.com/en/articles/8284223-what-is-the-scaling-plan",
+              "activation_fee": "https://www.topstep.com/",
+              "reset_cost": "https://help.topstep.com/en/articles/8284216-express-funded-account-live-funded-account-faq-s",
+              "trading_hours": "https://help.topstep.com/en/articles/8284206-when-and-what-products-can-i-trade"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy",
+                "minimum_profit_per_day": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy",
+                "maximum_payout": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy",
+                "payout_split": "https://help.topstep.com/en/articles/8284233-topstep-payout-policy"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

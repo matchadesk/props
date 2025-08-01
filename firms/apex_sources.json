@@ -1,0 +1,282 @@
+{
+  "name": "Apex Trader Funding Sources",
+  "platforms": "https://support.apextraderfunding.com/hc/en-us/articles/31318568303259-Choosing-the-Right-Platform",
+  "funded_amount": "https://support.apextraderfunding.com/hc/en-us/articles/4406804554779-How-Many-Paid-Funded-Accounts-Am-I-Allowed-to-Have",
+  "eval_amount": "https://support.apextraderfunding.com/hc/en-us/articles/4406804554779-How-Many-Paid-Funded-Accounts-Am-I-Allowed-to-Have",
+  "payout_methods": "https://support.apextraderfunding.com/hc/en-us/articles/18960740219931-Payout-Method-Information",
+  "purchase_options": [
+    {
+      "name": "Full Account (Rithmic)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "evaluation_rules": {
+            "sources": {
+              "max_drawdown": "https://apextraderfunding.com/",
+              "daily_drawdown": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules",
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules",
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules",
+              "scaling_rule": "https://apextraderfunding.com/",
+              "reset_cost": "https://support.apextraderfunding.com/hc/en-us/articles/31519779551387-Evaluation-Subscription-Billing",
+              "price": "https://apextraderfunding.com/",
+              "minimum_days": "https://support.apextraderfunding.com/hc/en-us/articles/10403533495835-What-Are-the-Rules-for-Evaluations-Master-Course",
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "minimum_days": 1
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "drawdown_mode": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "profit_target": "https://apextraderfunding.com/",
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": null,
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/4404875002139-What-are-the-Consistency-Rules-for-PA-and-Funded-Accounts",
+              "scaling_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519788944411-Performance-Account-PA-and-Live-Account-Rules",
+              "activation_fee": "https://support.apextraderfunding.com/hc/en-us/articles/11316873486491-PA-Account-Fees-Lifetime-and-Monthly",
+              "reset_cost": "https://support.apextraderfunding.com/hc/en-us/articles/11316873486491-PA-Account-Fees-Lifetime-and-Monthly",
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_profit_per_day": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "maximum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "payout_split": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Full Account (Tradovate)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "evaluation_rules": {
+            "sources": {
+              "max_drawdown": "https://apextraderfunding.com/",
+              "daily_drawdown": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules",
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules",
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules",
+              "scaling_rule": "https://apextraderfunding.com/",
+              "reset_cost": "https://support.apextraderfunding.com/hc/en-us/articles/11316873486491-PA-Account-Fees-Lifetime-and-Monthly",
+              "price": "https://apextraderfunding.com/",
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "minimum_days": 1
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "drawdown_mode": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "profit_target": null,
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": null,
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/4404875002139-What-are-the-Consistency-Rules-for-PA-and-Funded-Accounts",
+              "scaling_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519788944411-Performance-Account-PA-and-Live-Account-Rules",
+              "activation_fee": "https://support.apextraderfunding.com/hc/en-us/articles/11316873486491-PA-Account-Fees-Lifetime-and-Monthly",
+              "reset_cost": null,
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_profit_per_day": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "maximum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "payout_split": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Full Account (WealthCharts)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "evaluation_rules": {
+            "sources": {
+              "max_drawdown": "https://apextraderfunding.com/",
+              "daily_drawdown": null,
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": null,
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules",
+              "scaling_rule": "https://apextraderfunding.com/",
+              "reset_cost": "https://support.apextraderfunding.com/hc/en-us/articles/31519779551387-Evaluation-Subscription-Billing",
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "minimum_days": 1
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "drawdown_mode": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "profit_target": null,
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": null,
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/4404875002139-What-are-the-Consistency-Rules-for-PA-and-Funded-Accounts",
+              "scaling_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519788944411-Performance-Account-PA-and-Live-Account-Rules",
+              "activation_fee": "https://support.apextraderfunding.com/hc/en-us/articles/11316873486491-PA-Account-Fees-Lifetime-and-Monthly",
+              "reset_cost": null,
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_profit_per_day": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "maximum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "payout_split": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Static Account (Rithmic)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 100000,
+          "evaluation_rules": {
+            "sources": {
+              "max_drawdown": "https://apextraderfunding.com/",
+              "daily_drawdown": null,
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": null,
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules",
+              "scaling_rule": "https://apextraderfunding.com/",
+              "reset_cost": "https://support.apextraderfunding.com/hc/en-us/articles/31519779551387-Evaluation-Subscription-Billing",
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "minimum_days": 1
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "drawdown_mode": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "profit_target": null,
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": null,
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/4404875002139-What-are-the-Consistency-Rules-for-PA-and-Funded-Accounts",
+              "scaling_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519788944411-Performance-Account-PA-and-Live-Account-Rules",
+              "activation_fee": "https://support.apextraderfunding.com/hc/en-us/articles/11316873486491-PA-Account-Fees-Lifetime-and-Monthly",
+              "reset_cost": null,
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_profit_per_day": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "maximum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "payout_split": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Static Account (Tradovate)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 100000,
+          "evaluation_rules": {
+            "sources": {
+              "max_drawdown": "https://apextraderfunding.com/",
+              "daily_drawdown": null,
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": null,
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules",
+              "scaling_rule": "https://apextraderfunding.com/",
+              "reset_cost": "https://support.apextraderfunding.com/hc/en-us/articles/11316873486491-PA-Account-Fees-Lifetime-and-Monthly",
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "minimum_days": 1
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "drawdown_mode": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "profit_target": null,
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": null,
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/4404875002139-What-are-the-Consistency-Rules-for-PA-and-Funded-Accounts",
+              "scaling_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519788944411-Performance-Account-PA-and-Live-Account-Rules",
+              "activation_fee": "https://support.apextraderfunding.com/hc/en-us/articles/11316873486491-PA-Account-Fees-Lifetime-and-Monthly",
+              "reset_cost": null,
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_profit_per_day": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "maximum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "payout_split": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Static Account (WealthCharts)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 100000,
+          "evaluation_rules": {
+            "sources": {
+              "max_drawdown": "https://apextraderfunding.com/",
+              "daily_drawdown": null,
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": null,
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules",
+              "scaling_rule": "https://apextraderfunding.com/",
+              "reset_cost": "https://support.apextraderfunding.com/hc/en-us/articles/31519779551387-Evaluation-Subscription-Billing",
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "minimum_days": 1
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "drawdown_mode": "https://support.apextraderfunding.com/hc/en-us/articles/4408610260507-How-Does-the-Trailing-Static-Drawdown-Threshold-Work-Master-Course",
+              "profit_target": null,
+              "max_position": "https://apextraderfunding.com/",
+              "micro_scaling": null,
+              "consistency_rule": "https://support.apextraderfunding.com/hc/en-us/articles/4404875002139-What-are-the-Consistency-Rules-for-PA-and-Funded-Accounts",
+              "scaling_rule": "https://support.apextraderfunding.com/hc/en-us/articles/31519788944411-Performance-Account-PA-and-Live-Account-Rules",
+              "activation_fee": "https://support.apextraderfunding.com/hc/en-us/articles/11316873486491-PA-Account-Fees-Lifetime-and-Monthly",
+              "reset_cost": null,
+              "trading_hours": "https://support.apextraderfunding.com/hc/en-us/articles/4404866601243-What-Time-Must-Trades-Be-Closed-By"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_profit_per_day": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "minimum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "maximum_payout": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages",
+                "payout_split": "https://support.apextraderfunding.com/hc/en-us/articles/10403497070363-How-Do-Payouts-Work-Payouts-and-Performance-Split-Percentages"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

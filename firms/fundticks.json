@@ -1,0 +1,282 @@
+{
+  "name": "FundingTicks",
+  "platforms": [
+    "Tradovate",
+    "NinjaTrader",
+    "TradingView"
+  ],
+  "funded_amount": "$300k total allocation",
+  "eval_amount": "Unlimited",
+  "support_options": {
+    "help_center": "https://fundingticks.com/contact",
+    "email": "support@fundingticks.com",
+    "discord": "https://discord.com/invite/SqqGQYjwkW",
+    "other": "Contact form & Cloudflare-protected email"
+  },
+  "payout_methods": [
+    "Rise",
+    "USDT TRC-20"
+  ],
+  "purchase_options": [
+    {
+      "name": "Pro+ Evaluation",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 99,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 1500,
+            "max_drawdown": 1000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 2,
+            "micro_scaling": 20,
+            "consistency_rule": 40,
+            "scaling_rule": "None during evaluation",
+            "reset_cost": null,
+            "minimum_days": 3,
+            "trading_hours": "No daily time restriction - free to open, close, and hold trades at any time"
+          },
+          "funded_rules": {
+            "max_drawdown": 1000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 2,
+            "micro_scaling": 20,
+            "consistency_rule": 40,
+            "scaling_rule": "Live - +20% size each 100% profit",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 250,
+              "maximum_payout": 5000,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "No daily time restriction - free to open, close, and hold trades at any time"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 125,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 2500,
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 4,
+            "micro_scaling": 40,
+            "consistency_rule": 40,
+            "scaling_rule": "None during evaluation",
+            "reset_cost": null,
+            "minimum_days": 3,
+            "trading_hours": "No daily time restriction - free to open, close, and hold trades at any time"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 4,
+            "micro_scaling": 40,
+            "consistency_rule": 40,
+            "scaling_rule": "Live - +20% size each 100% profit",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 500,
+              "maximum_payout": 5000,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "No daily time restriction - free to open, close, and hold trades at any time"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 199,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 6000,
+            "max_drawdown": 3000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 8,
+            "micro_scaling": 80,
+            "consistency_rule": 40,
+            "scaling_rule": "None during evaluation",
+            "reset_cost": null,
+            "minimum_days": 3,
+            "trading_hours": "No daily time restriction - free to open, close, and hold trades at any time"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 8,
+            "micro_scaling": 80,
+            "consistency_rule": 40,
+            "scaling_rule": "Live - +20% size each 100% profit",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 1000,
+              "maximum_payout": 5000,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "No daily time restriction - free to open, close, and hold trades at any time"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zero - Straight to Funded",
+      "type": "funded",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 333,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 1000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 2,
+            "micro_scaling": 20,
+            "consistency_rule": 25,
+            "scaling_rule": "Live - +20% size each 100% profit",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 1000,
+              "maximum_payout": 1000,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "No daily time restriction - free to open, close, and hold trades at any time"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 499,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 4,
+            "micro_scaling": 40,
+            "consistency_rule": 25,
+            "scaling_rule": "Live - +20% size each 100% profit",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 2000,
+              "maximum_payout": 2500,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "No daily time restriction - free to open, close, and hold trades at any time"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 599,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 8,
+            "micro_scaling": 80,
+            "consistency_rule": 25,
+            "scaling_rule": "Live - +20% size each 100% profit",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 2500,
+              "maximum_payout": 3000,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "No daily time restriction - free to open, close, and hold trades at any time"
+          }
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between Live and Zero accounts?",
+      "answer": "Live accounts require passing an evaluation phase with profit targets and drawdown limits. Zero accounts are straight-to-funded with no evaluation phase, allowing you to start trading with real money immediately.",
+      "source": "https://help.fundingticks.com/hc/en-us/articles/36180224772625-FundingTicks-Zero-Trading-Rules-and-Limits"
+    },
+    {
+      "question": "How do payouts work?",
+      "answer": "Payouts are available after 5 trading days with no minimum profit per day required. You keep 90% of profits with a 10% split to FundingTicks. Minimum payouts range from $1,000 to $2,500 depending on account size.",
+      "source": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-traders"
+    },
+    {
+      "question": "What is the scaling plan?",
+      "answer": "FundingTicks offers live scaling where your position size increases by 20% for every 100% profit you make. This applies to both Live and Zero accounts.",
+      "source": "https://help.fundingticks.com/hc/en-us/articles/36180224772625-FundingTicks-Zero-Trading-Rules-and-Limits"
+    },
+    {
+      "question": "Is there an activation fee?",
+      "answer": "No, there are no activation fees for FundingTicks accounts. You only pay the one-time evaluation fee for Live accounts or the one-time fee for Zero accounts.",
+      "source": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-traders"
+    },
+    {
+      "question": "What happens if I hit the drawdown limit?",
+      "answer": "If you hit the maximum drawdown limit, your account will be reset. You would need to purchase a new account to continue trading.",
+      "source": "https://help.fundingticks.com/hc/en-us/articles/36180224772625-FundingTicks-Zero-Trading-Rules-and-Limits"
+    },
+    {
+      "question": "Can I trade during news events?",
+      "answer": "You may hold positions but cannot open/close/hold during Tier-1 news +/-1 minute. This restriction applies to both evaluation and funded accounts. Tier-1 events include CPI, NFP, FOMC, PPI, Crude Inventories, and Bond auctions.",
+      "source": "https://help.fundingticks.com/hc/en-us/articles/36180101340561-FundingTicks-Pro-Trading-Rules-and-Limits"
+    },
+    {
+      "question": "What is the minimum trading days to pass evaluation?",
+      "answer": "FundingTicks requires 3 days minimum to pass evaluation. This applies to both Pro+ and Zero models. The 40% consistency rule also requires at least 3 days since your biggest day cannot exceed 40% of the profit target.",
+      "source": "https://fundingticks.com/"
+    },
+    {
+      "question": "How does the Live Program add +20% capital every time I double my profit?",
+      "answer": "In a Live account, each time total profit = 100% of the current balance the firm credits another 20% of the initial balance to increase account size (e.g. $10K → $12K → $14.4K …).",
+      "source": "https://help.fundingticks.com/hc/en-us/articles/36218558140945-Live-Program-Growth-Scaling-Path"
+    },
+    {
+      "question": "When can I request a live payout?",
+      "answer": "Live traders may request daily rewards (80/20 split) after their first trade; the programme's minimum reward is 1% of initial balance.",
+      "source": "https://help.fundingticks.com/hc/en-us/articles/36218556800273-Live-Program-Rewards"
+    }
+  ]
+}

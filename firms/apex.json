@@ -1,0 +1,943 @@
+{
+  "name": "Apex Trader Funding",
+  "platforms": [
+    "Rithmic",
+    "Tradovate",
+    "NinjaTrader"
+  ],
+  "funded_amount": 20,
+  "eval_amount": "Unlimited",
+  "support_options": {
+    "help_center": "https://support.apextraderfunding.com/hc/en-us/requests/new",
+    "discord": "https://discord.com/invite/apextraderfunding",
+    "other": "24h knowledge-base: https://support.apextraderfunding.com/hc/en-us"
+  },
+  "payout_methods": [
+    "ACH to U.S. bank accounts",
+    "International"
+  ],
+  "purchase_options": [
+    {
+      "name": "Full Account (Rithmic)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 157,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 1500,
+            "profit_target": 2000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 4,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 1500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 4,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 177,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 2500,
+            "profit_target": 3000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 10,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 2500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 297,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 3000,
+            "profit_target": 6000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 14,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 14,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 397,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 5000,
+            "profit_target": 9000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 17,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 5000,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 17,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 250000,
+          "price": {
+            "amount": 497,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 6500,
+            "profit_target": 15000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 27,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 6500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 27,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 300000,
+          "price": {
+            "amount": 597,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 7500,
+            "profit_target": 20000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 35,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 7500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 35,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Full Account (Tradovate)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 167,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 1500,
+            "profit_target": 2000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 4,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 100,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 1500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 4,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 105,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 187,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 2500,
+            "profit_target": 3000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 10,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 100,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 2500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 105,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 297,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 3000,
+            "profit_target": 6000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 14,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 100,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 14,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 105,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 397,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 5000,
+            "profit_target": 9000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 17,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 100,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 5000,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 17,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 105,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 250000,
+          "price": {
+            "amount": 497,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 6500,
+            "profit_target": 15000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 27,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 100,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 6500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 27,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 105,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 300000,
+          "price": {
+            "amount": 597,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 7500,
+            "profit_target": 20000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 35,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 100,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 7500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 35,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 105,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Full Account (WealthCharts)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 147,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 1500,
+            "profit_target": 2000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 4,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 1500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 4,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 167,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 2500,
+            "profit_target": 3000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 10,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 2500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 297,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 3000,
+            "profit_target": 6000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 14,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 14,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 397,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 5000,
+            "profit_target": 9000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 17,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 5000,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 17,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 250000,
+          "price": {
+            "amount": 497,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 6500,
+            "profit_target": 15000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 27,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 6500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 27,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        },
+        {
+          "size": 300000,
+          "price": {
+            "amount": 597,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 7500,
+            "profit_target": 20000,
+            "drawdown_mode": "Intraday Trailing",
+            "daily_drawdown": null,
+            "max_position": 35,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 7500,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 35,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Static Account (Rithmic)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 100000,
+          "price": {
+            "amount": 147,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 625,
+            "profit_target": 2000,
+            "drawdown_mode": "Static Drawdown",
+            "daily_drawdown": null,
+            "max_position": 2,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 625,
+            "drawdown_mode": "Static Drawdown",
+            "profit_target": null,
+            "max_position": 2,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Static Account (Tradovate)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 100000,
+          "price": {
+            "amount": 157,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 625,
+            "profit_target": 2000,
+            "drawdown_mode": "Static Drawdown",
+            "daily_drawdown": null,
+            "max_position": 2,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 100,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 625,
+            "drawdown_mode": "Static Drawdown",
+            "profit_target": null,
+            "max_position": 2,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 105,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Static Account (WealthCharts)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 100000,
+          "price": {
+            "amount": 137,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "max_drawdown": 625,
+            "profit_target": 2000,
+            "drawdown_mode": "Static Drawdown",
+            "daily_drawdown": null,
+            "max_position": 2,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 80,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          },
+          "funded_rules": {
+            "max_drawdown": 625,
+            "drawdown_mode": "Static Drawdown",
+            "profit_target": null,
+            "max_position": 2,
+            "micro_scaling": null,
+            "consistency_rule": 30,
+            "scaling_rule": "Half-contract limit until safety net; then full size (up to 20 PA accounts)",
+            "activation_fee": 85,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 50,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": 100
+            },
+            "trading_hours": "4:59 PM ET - all trades must be flat before 4:59 PM"
+          }
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between Trailing and Static drawdown?",
+      "answer": "Trailing drawdown follows your account balance and moves up as you profit, while static drawdown remains fixed at the initial level. Trailing provides more flexibility but requires careful risk management.",
+      "source": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules"
+    },
+    {
+      "question": "How do payouts work?",
+      "answer": "Payouts are available after 8 trading days with a minimum of $50 profit per day. The minimum payout is $500, and you keep 100% of your profits with no split.",
+      "source": "https://support.apextraderfunding.com/hc/en-us/articles/31519779551387-Evaluation-Subscription-Billing"
+    },
+    {
+      "question": "What happens if I hit the drawdown limit?",
+      "answer": "If you hit the maximum drawdown limit, your account will be reset. You can purchase a reset for $100 or start a new evaluation account.",
+      "source": "https://support.apextraderfunding.com/hc/en-us/articles/31519779551387-Evaluation-Subscription-Billing"
+    },
+    {
+      "question": "Can I trade multiple accounts?",
+      "answer": "Yes, you can trade up to 20 PA (Prop Account) accounts simultaneously once you pass the evaluation phase and meet the scaling requirements.",
+      "source": "https://apextraderfunding.com/"
+    },
+    {
+      "question": "What is the consistency rule?",
+      "answer": "The consistency rule requires you to maintain profitable trading days. For evaluation accounts, there's no specific consistency requirement, but for funded accounts, you need to maintain 30% consistency.",
+      "source": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules"
+    },
+    {
+      "question": "Can I pass an evaluation in a single trading day?",
+      "answer": "Yes, Apex allows evaluation accounts to be passed in a single trading day if you meet all the profit targets and drawdown requirements.",
+      "source": "https://support.apextraderfunding.com/hc/en-us/articles/31519769997083-Evaluation-Rules"
+    },
+    {
+      "question": "What are the account activation fees?",
+      "answer": "There are no activation fees for evaluation accounts. You only pay the monthly subscription fee. For funded accounts, there is a one-time activation fee of $85.",
+      "source": "https://support.apextraderfunding.com/hc/en-us/articles/31519779551387-Evaluation-Subscription-Billing"
+    },
+    {
+      "question": "How do I manage multiple accounts?",
+      "answer": "You can trade up to 20 PA (Prop Account) accounts simultaneously once you pass the evaluation phase and meet the scaling requirements. You can keep passed accounts in reserve without activating them immediately.",
+      "source": "https://apextraderfunding.com/"
+    },
+    {
+      "question": "Can I trade during news events?",
+      "answer": "Yes, news trading is permitted in both evaluation and funded phases. Trading based on news events is allowed, provided you still meet the 30% consistency thresholds. No hedging the same event is allowed.",
+      "source": "https://support.apextraderfunding.com/hc/en-us/articles/30306093336603-Apex-3-0-Payout-and-Trading-Rules"
+    },
+    {
+      "question": "What is the minimum trading days to pass evaluation?",
+      "answer": "Apex has no minimum trading days requirement for evaluation accounts. You can pass in as little as 1 day if you meet all profit targets and drawdown requirements.",
+      "source": "https://support.apextraderfunding.com/hc/en-us/articles/10403533495835-What-Are-the-Rules-for-Evaluations-Master-Course"
+    },
+    {
+      "question": "What is the Lifetime PA fee and can I switch from monthly later?",
+      "answer": "At checkout you may pay either a monthly data/activation fee ($85 Rithmic / $105 Tradovate) or a one-time \"Lifetime\" fee (e.g. $140 25K → $360 300K). Once the choice is made it cannot be changed for that individual PA account.",
+      "source": "https://support.apextraderfunding.com/hc/en-us/articles/11316873486491-PA-Account-Fees-Lifetime-and-Monthly"
+    },
+    {
+      "question": "Do Monday & Tuesday really count as ONE trading day at Apex on holiday weeks?",
+      "answer": "Yes. On holiday weeks Apex merges trades from the Sunday 6 p.m. open through the Tuesday session into a single \"trading day\" for evaluation-day counting and reporting.",
+      "source": "https://support.apextraderfunding.com/hc/en-us/articles/18900677616283-Help-Center-and-Status-Updates"
+    },
+    {
+      "question": "Which exchanges/products are allowed (CME vs CFDs, crypto, etc.)?",
+      "answer": "Apex permits ONLY regulated U.S. Futures products on CME / CBOT / COMEX / NYMEX.",
+      "source": "https://apextraderfunding.com/news/2022/04/22/weekend-reads-how-to.html"
+    }
+  ]
+}

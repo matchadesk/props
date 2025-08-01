@@ -1,0 +1,59 @@
+{
+  "name": "Take Profit Trader Sources",
+  "platforms": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15173017163549-Available-Platforms",
+  "funded_amount": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172695563933-How-Many-Accounts-Can-I-have",
+  "eval_amount": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172695563933-How-Many-Accounts-Can-I-have",
+  "payout_methods": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15171522280733-4-Your-Wallet",
+  "purchase_options": [
+    {
+      "name": "Test Account",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169070804125-Rule-1-Hit-Your-Profit-Target",
+              "max_drawdown": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15170265979165-Rule-3-Do-Not-Hit-End-Of-Day-EOD-Maximum-Trailing-Drawdown",
+              "daily_drawdown": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/24326350243613-NEWYEAR50-PROMO-FAQS",
+              "drawdown_mode": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15170265979165-Rule-3-Do-Not-Hit-End-Of-Day-EOD-Maximum-Trailing-Drawdown",
+              "max_position": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169070804125-Rule-1-Hit-Your-Profit-Target",
+              "micro_scaling": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169066911133-Rule-2-Do-Not-Exceed-Maximum-Position-Size",
+              "consistency_rule": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169066911133-Rule-2-Do-Not-Exceed-Maximum-Position-Size",
+              "scaling_rule": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169066911133-Rule-2-Do-Not-Exceed-Maximum-Position-Size",
+              "reset_cost": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15140989806493-What-Is-An-Account-Reset-How-Can-I-Reset-My-Account",
+              "price": "https://takeprofittrader.com/",
+              "minimum_days": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15170316538013-Rule-5-Be-Consistent",
+              "trading_hours": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15170347090461-Rule-4-Trade-Approved-Products-During-Approved-Hours"
+            },
+            "minimum_days": 5
+          },
+          "funded_rules": {
+            "sources": {
+              "profit_target": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169070804125-Rule-1-Hit-Your-Profit-Target",
+              "max_drawdown": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15171769361053-Are-the-rules-the-same",
+              "daily_drawdown": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/24326350243613-NEWYEAR50-PROMO-FAQS",
+              "drawdown_mode": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15171769361053-Are-the-rules-the-same",
+              "max_position": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169070804125-Rule-1-Hit-Your-Profit-Target",
+              "micro_scaling": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169066911133-Rule-2-Do-Not-Exceed-Maximum-Position-Size",
+              "consistency_rule": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15169066911133-Rule-2-Do-Not-Exceed-Maximum-Position-Size",
+              "scaling_rule": "https://go.takeprofittrader.com/fundedtrader",
+              "activation_fee": "https://takeprofittrader.com/",
+              "reset_cost": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15171895352733-PRO-Account-Resets",
+              "trading_hours": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15170347090461-Rule-4-Trade-Approved-Products-During-Approved-Hours"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172219527581-PRO-Account-Profit-Split-Withdrawal-Rules",
+                "minimum_profit_per_day": "https://takeprofittrader.com/",
+                "minimum_payout": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172219527581-PRO-Account-Profit-Split-Withdrawal-Rules",
+                "maximum_payout": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172219527581-PRO-Account-Profit-Split-Withdrawal-Rules",
+                "payout_split": "https://takeprofittraderhelp.zendesk.com/hc/en-us/articles/15172219527581-PRO-Account-Profit-Split-Withdrawal-Rules"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

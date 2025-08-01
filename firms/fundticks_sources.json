@@ -1,0 +1,92 @@
+{
+  "name": "FundingTicks Sources",
+  "platforms": "https://fundingticks.com/",
+  "funded_amount": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-trading",
+  "eval_amount": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-trading",
+  "payout_methods": "https://help.fundingticks.com/hc/en-us/articles/37470076498705-How-do-I-request-a-Reward",
+  "purchase_options": [
+    {
+      "name": "Pro+ Evaluation",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.fundingticks.com/hc/en-us/articles/36179993542161-FundingTicks-Pro-Evaluation-Phase",
+              "max_drawdown": "https://help.fundingticks.com/hc/en-us/articles/36180101340561-FundingTicks-Pro-Trading-Rules-and-Limits",
+              "daily_drawdown": "https://help.fundingticks.com/hc/en-us/articles/36180101340561-FundingTicks-Pro-Trading-Rules-and-Limits",
+              "drawdown_mode": "https://help.fundingticks.com/hc/en-us/articles/36180101340561-FundingTicks-Pro-Trading-Rules-and-Limits",
+              "max_position": "https://help.fundingticks.com/hc/en-us/articles/36180101340561-FundingTicks-Pro-Trading-Rules-and-Limits",
+              "micro_scaling": "https://help.fundingticks.com/hc/en-us/articles/36180101340561-FundingTicks-Pro-Trading-Rules-and-Limits",
+              "consistency_rule": "https://help.fundingticks.com/hc/en-us/articles/36179993542161-FundingTicks-Pro-Evaluation-Phase",
+              "scaling_rule": "https://help.fundingticks.com/hc/en-us/articles/36183932826129-Live-Program",
+              "reset_cost": "https://fundingticks.com/legal/terms-and-conditions",
+              "price": "https://fundingticks.com/#proplus",
+              "minimum_days": "https://fundingticks.com/",
+              "trading_hours": "https://help.fundingticks.com/hc/en-us/articles/36180224772625-FundingTicks-Zero-Trading-Rules-and-Limits"
+            },
+            "minimum_days": 3
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.fundingticks.com/hc/en-us/articles/36180101340561-FundingTicks-Pro-Trading-Rules-and-Limits",
+              "daily_drawdown": "https://help.fundingticks.com/hc/en-us/articles/36180101340561-FundingTicks-Pro-Trading-Rules-and-Limits",
+              "drawdown_mode": "https://help.fundingticks.com/hc/en-us/articles/36180101340561-FundingTicks-Pro-Trading-Rules-and-Limits",
+              "profit_target": "https://help.fundingticks.com/hc/en-us/articles/36180147474449-FundingTicks-Pro-Rewards",
+              "max_position": "https://help.fundingticks.com/hc/en-us/articles/36180101340561-FundingTicks-Pro-Trading-Rules-and-Limits",
+              "micro_scaling": "https://help.fundingticks.com/hc/en-us/articles/36180101340561-FundingTicks-Pro-Trading-Rules-and-Limits",
+              "consistency_rule": "https://help.fundingticks.com/hc/en-us/articles/36179993542161-FundingTicks-Pro-Evaluation-Phase",
+              "scaling_rule": "https://help.fundingticks.com/hc/en-us/articles/36183932826129-Live-Program",
+              "activation_fee": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-trading",
+              "reset_cost": "https://fundingticks.com/legal/terms-and-conditions",
+              "trading_hours": "https://help.fundingticks.com/hc/en-us/articles/36180224772625-FundingTicks-Zero-Trading-Rules-and-Limits"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-trading",
+                "minimum_profit_per_day": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-trading",
+                "minimum_payout": "https://help.fundingticks.com/hc/en-us/articles/36180147474449-FundingTicks-Pro-Rewards",
+                "maximum_payout": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-trading",
+                "payout_split": "https://fundingticks.com/#proplus"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Zero - Straight to Funded",
+      "type": "funded",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.fundingticks.com/hc/en-us/articles/36180224772625-FundingTicks-Zero-Trading-Rules-and-Limits",
+              "daily_drawdown": "https://help.fundingticks.com/hc/en-us/articles/36180224772625-FundingTicks-Zero-Trading-Rules-and-Limits",
+              "drawdown_mode": "https://help.fundingticks.com/hc/en-us/articles/36180224772625-FundingTicks-Zero-Trading-Rules-and-Limits",
+              "profit_target": "https://fundingticks.com/blog/fundingticks-zero-evaluation-model-instant-access-to-prop-firm-capital",
+              "max_position": "https://help.fundingticks.com/hc/en-us/articles/36180224772625-FundingTicks-Zero-Trading-Rules-and-Limits",
+              "micro_scaling": "https://help.fundingticks.com/hc/en-us/articles/36180224772625-FundingTicks-Zero-Trading-Rules-and-Limits",
+              "consistency_rule": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-trading",
+              "scaling_rule": "https://help.fundingticks.com/hc/en-us/articles/36183932826129-Live-Program",
+              "activation_fee": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-trading",
+              "reset_cost": "https://fundingticks.com/legal/terms-and-conditions",
+              "trading_hours": "https://help.fundingticks.com/hc/en-us/articles/36180224772625-FundingTicks-Zero-Trading-Rules-and-Limits"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-trading",
+                "minimum_profit_per_day": "https://fundingticks.com/blog/fundingticks-zero-evaluation-model-instant-access-to-prop-firm-capital",
+                "minimum_payout": "https://help.fundingticks.com/hc/en-us/articles/36180381145489-FundingTicks-Zero-Rewards",
+                "maximum_payout": "https://help.fundingticks.com/hc/en-us/articles/36180381145489-FundingTicks-Zero-Rewards",
+                "payout_split": "https://fundingticks.com/blog/how-fundingticks-empowers-futures-trading"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

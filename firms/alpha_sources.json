@@ -1,0 +1,153 @@
+{
+  "name": "Alpha Futures Sources",
+  "platforms": "https://help.alpha-futures.com/en/articles/10525620-how-to-trade-with-tradingview",
+  "funded_amount": "https://help.alpha-futures.com/en/articles/9492088-maximum-allocation",
+  "eval_amount": "https://help.alpha-futures.com/en/articles/9492088-maximum-allocation",
+  "payout_methods": "https://help.alpha-futures.com/en/articles/10443600-payout-methods",
+  "purchase_options": [
+    {
+      "name": "Zero Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.alpha-futures.com/en/articles/11771813-zero-account-overview",
+              "max_drawdown": "https://help.alpha-futures.com/en/articles/11771813-zero-account-overview",
+              "daily_drawdown": "https://help.alpha-futures.com/en/articles/11771813-zero-account-overview",
+              "drawdown_mode": "https://help.alpha-futures.com/en/articles/9491999-maximum-loss-limit-mll",
+              "max_position": "https://help.alpha-futures.com/en/articles/11771813-zero-account-overview",
+              "micro_scaling": "https://help.alpha-futures.com/en/articles/11771813-zero-account-overview",
+              "consistency_rule": "https://help.alpha-futures.com/en/articles/9492048-consistency-rule",
+              "scaling_rule": "https://help.alpha-futures.com/en/articles/9492025-scaling-plan",
+              "reset_cost": "https://help.alpha-futures.com/en/articles/9492077-reset",
+              "price": "https://help.alpha-futures.com/en/articles/11771813-zero-account-overview",
+              "trading_hours": "https://help.alpha-futures.com/en/articles/9491980-alpha-futures-evaluation-qualified-trader-overview"
+            }
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.alpha-futures.com/en/articles/11771813-zero-account-overview",
+              "daily_drawdown": "https://help.alpha-futures.com/en/articles/11771813-zero-account-overview",
+              "drawdown_mode": "https://help.alpha-futures.com/en/articles/9491999-maximum-loss-limit-mll",
+              "profit_target": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+              "max_position": "https://help.alpha-futures.com/en/articles/11771813-zero-account-overview",
+              "micro_scaling": "https://help.alpha-futures.com/en/articles/9492025-scaling-plan",
+              "consistency_rule": "https://help.alpha-futures.com/en/articles/9492048-consistency-rule",
+              "scaling_rule": "https://help.alpha-futures.com/en/articles/9492025-scaling-plan",
+              "activation_fee": "https://help.alpha-futures.com/en/articles/11771813-zero-account-overview",
+              "reset_cost": "https://help.alpha-futures.com/en/articles/11771813-zero-account-overview",
+              "trading_hours": "https://help.alpha-futures.com/en/articles/9491980-alpha-futures-evaluation-qualified-trader-overview"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "minimum_profit_per_day": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "minimum_payout": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "maximum_payout": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "payout_split": "https://help.alpha-futures.com/en/articles/9492051-payout-policy"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Standard Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.alpha-futures.com/en/articles/11632512-standard-account-overview",
+              "max_drawdown": "https://help.alpha-futures.com/en/articles/11632512-standard-account-overview",
+              "daily_drawdown": "https://help.alpha-futures.com/en/articles/9492014-daily-loss-guard",
+              "drawdown_mode": "https://help.alpha-futures.com/en/articles/9491999-maximum-loss-limit-mll",
+              "max_position": "https://help.alpha-futures.com/en/articles/11632512-standard-account-overview",
+              "micro_scaling": "https://help.alpha-futures.com/en/articles/11632512-standard-account-overview",
+              "consistency_rule": "https://help.alpha-futures.com/en/articles/9492048-consistency-rule",
+              "scaling_rule": "https://help.alpha-futures.com/en/articles/9492025-scaling-plan",
+              "reset_cost": "https://help.alpha-futures.com/en/articles/9492077-reset",
+              "price": "https://help.alpha-futures.com/en/articles/11632512-standard-account-overview",
+              "trading_hours": "https://help.alpha-futures.com/en/articles/9491980-alpha-futures-evaluation-qualified-trader-overview"
+            }
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.alpha-futures.com/en/articles/11632512-standard-account-overview",
+              "daily_drawdown": "https://help.alpha-futures.com/en/articles/9492014-daily-loss-guard",
+              "drawdown_mode": "https://help.alpha-futures.com/en/articles/9491999-maximum-loss-limit-mll",
+              "profit_target": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+              "max_position": "https://help.alpha-futures.com/en/articles/11632512-standard-account-overview",
+              "micro_scaling": "https://help.alpha-futures.com/en/articles/9492025-scaling-plan",
+              "consistency_rule": "https://help.alpha-futures.com/en/articles/9492048-consistency-rule",
+              "scaling_rule": "https://help.alpha-futures.com/en/articles/9492025-scaling-plan",
+              "activation_fee": "https://help.alpha-futures.com/en/articles/9492083-activation-fee",
+              "reset_cost": "https://help.alpha-futures.com/en/articles/11632512-standard-account-overview",
+              "trading_hours": "https://help.alpha-futures.com/en/articles/9491980-alpha-futures-evaluation-qualified-trader-overview"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "minimum_profit_per_day": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "minimum_payout": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "maximum_payout": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "payout_split": "https://help.alpha-futures.com/en/articles/9492051-payout-policy"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Advanced Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "max_drawdown": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "daily_drawdown": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "drawdown_mode": "https://help.alpha-futures.com/en/articles/9491999-maximum-loss-limit-mll",
+              "max_position": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "micro_scaling": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "consistency_rule": "https://help.alpha-futures.com/en/articles/9492048-consistency-rule",
+              "scaling_rule": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "reset_cost": "https://help.alpha-futures.com/en/articles/9492077-reset",
+              "price": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "trading_hours": "https://help.alpha-futures.com/en/articles/9491980-alpha-futures-evaluation-qualified-trader-overview"
+            }
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "daily_drawdown": "https://help.alpha-futures.com/en/articles/9492014-daily-loss-guard",
+              "drawdown_mode": "https://help.alpha-futures.com/en/articles/9491999-maximum-loss-limit-mll",
+              "profit_target": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+              "max_position": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "micro_scaling": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "consistency_rule": "https://help.alpha-futures.com/en/articles/9492048-consistency-rule",
+              "scaling_rule": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "activation_fee": "https://help.alpha-futures.com/en/articles/9492083-activation-fee",
+              "reset_cost": "https://help.alpha-futures.com/en/articles/11634907-advanced-account-overview",
+              "trading_hours": "https://help.alpha-futures.com/en/articles/9491980-alpha-futures-evaluation-qualified-trader-overview"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "minimum_profit_per_day": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "minimum_payout": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "maximum_payout": "https://help.alpha-futures.com/en/articles/9492051-payout-policy",
+                "payout_split": "https://help.alpha-futures.com/en/articles/9492051-payout-policy"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

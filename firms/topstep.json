@@ -1,0 +1,193 @@
+{
+  "name": "Topstep",
+  "platforms": [
+    "TopstepX",
+    "Quantower"
+  ],
+  "funded_amount": 5,
+  "eval_amount": "Unlimited",
+  "support_options": {
+    "help_center": "https://help.topstep.com/en/",
+    "email": "help@topstep.com",
+    "phone": "+1-888-407-1611 (M-F 08:00-15:30 CT)",
+    "discord": "https://discord.gg/topstep",
+    "live_chat": "Windy chat"
+  },
+  "payout_methods": [
+    "Wise",
+    "ACH",
+    "Wire/SWIFT"
+  ],
+  "purchase_options": [
+    {
+      "name": "Trading Combine",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "price": {
+            "amount": 49,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2000,
+            "daily_drawdown": 1000,
+            "max_position": 5,
+            "micro_scaling": null,
+            "consistency_rule": 50,
+            "scaling_rule": "Scaling Plan applies",
+            "reset_cost": 49,
+            "minimum_days": 2,
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - risk desk starts flattening at 3:08 PM CT"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": 1000,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "Scaling Plan applies",
+            "activation_fee": 149,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 150,
+              "minimum_payout": null,
+              "maximum_payout": 5000,
+              "payout_split": "100/0 up to $10K, then 90/10"
+            },
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - risk desk starts flattening at 3:08 PM CT"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 99,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 6000,
+            "max_drawdown": 3000,
+            "daily_drawdown": 2000,
+            "max_position": 10,
+            "micro_scaling": null,
+            "consistency_rule": 50,
+            "scaling_rule": "Scaling Plan applies",
+            "reset_cost": 99,
+            "minimum_days": 2,
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - risk desk starts flattening at 3:08 PM CT"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "daily_drawdown": 2000,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "Scaling Plan applies",
+            "activation_fee": 149,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 150,
+              "minimum_payout": null,
+              "maximum_payout": 5000,
+              "payout_split": "100/0 up to $10K, then 90/10"
+            },
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - risk desk starts flattening at 3:08 PM CT"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 149,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 9000,
+            "max_drawdown": 4500,
+            "daily_drawdown": 3000,
+            "max_position": 15,
+            "micro_scaling": null,
+            "consistency_rule": 50,
+            "scaling_rule": "Scaling Plan applies",
+            "reset_cost": 149,
+            "minimum_days": 2,
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - risk desk starts flattening at 3:08 PM CT"
+          },
+          "funded_rules": {
+            "max_drawdown": 4500,
+            "daily_drawdown": 3000,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 15,
+            "micro_scaling": null,
+            "consistency_rule": null,
+            "scaling_rule": "Scaling Plan applies",
+            "activation_fee": 149,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 150,
+              "minimum_payout": null,
+              "maximum_payout": 5000,
+              "payout_split": "100/0 up to $10K, then 90/10"
+            },
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - risk desk starts flattening at 3:08 PM CT"
+          }
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "How do payouts work?",
+      "answer": "Payouts are available after 5 trading days with a minimum of $150 profit per day. You keep 100% of profits up to $10,000, then 90% after that. Maximum payout is $5,000 per period.",
+      "source": "https://help.topstep.com/en/articles/8284207-what-is-the-daily-loss-limit-and-what-happens-if-i-exceed-it"
+    },
+    {
+      "question": "What is the scaling plan?",
+      "answer": "Topstep's scaling plan allows you to increase your position sizes and account sizes as you demonstrate consistent profitability. This is applied to both evaluation and funded accounts.",
+      "source": "https://help.topstep.com/en/articles/8284223-what-is-the-scaling-plan"
+    },
+    {
+      "question": "Is there an activation fee?",
+      "answer": "No, there are no activation fees for Topstep accounts. You only pay the monthly subscription fee for evaluation accounts.",
+      "source": "https://help.topstep.com/en/articles/8284209-what-does-maximum-position-size-mean"
+    },
+    {
+      "question": "What happens if I hit the drawdown limit?",
+      "answer": "If you hit the maximum drawdown limit, your account will be reset. You can purchase a reset for the same price as a new evaluation account.",
+      "source": "https://help.topstep.com/en/articles/8284207-what-is-the-daily-loss-limit-and-what-happens-if-i-exceed-it"
+    },
+    {
+      "question": "What is the consistency rule?",
+      "answer": "The consistency rule requires you to maintain profitable trading days. For evaluation accounts, you need to maintain 50% consistency to pass to the funded phase.",
+      "source": "https://help.topstep.com/en/articles/8284208-what-is-the-consistency-target"
+    },
+    {
+      "question": "Can I trade during news events?",
+      "answer": "Yes, you can trade during news and economic releases at your own risk. Topstep simply advises caution and warns about potential slippage. No time windows or restrictions are imposed.",
+      "source": "https://help.topstep.com/en/articles/8451438-frequently-asked-questions-faqs"
+    },
+    {
+      "question": "What is the minimum trading days to pass evaluation?",
+      "answer": "Topstep requires a minimum of 2 trading days to pass evaluation due to the Consistency Target requirement. The Combine can be completed in as little as two trading days because of this consistency rule.",
+      "source": "https://www.topstep.com/faq/"
+    },
+    {
+      "question": "Why must all new Combines use TopstepX after 7 Jul 2025?",
+      "answer": "From 7 July 2025 TopstepX becomes the only supported platform; no new Combines can be bought on other platforms, easing support and improving funded-trader outcomes.",
+      "source": "https://help.topstep.com/en/articles/11667498-important-changes-to-topstep-supported-platforms"
+    },
+    {
+      "question": "What happens to legacy Quantower or NinjaTrader Combines after 1 Aug 2025?",
+      "answer": "After 1 Aug 2025 resets are possible only in TopstepX; failing an account on another platform means you must open the next Combine on TopstepX.",
+      "source": "https://help.topstep.com/en/articles/11667498-important-changes-to-topstep-supported-platforms"
+    }
+  ]
+}

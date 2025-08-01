@@ -1,0 +1,142 @@
+{
+  "name": "DayTraders Sources",
+  "platforms": "https://help.daytraders.com/en/articles/9856562-platform-connection-guides",
+  "funded_amount": "https://help.daytraders.com/en/articles/9856878-allowed-number-of-accounts-evaluations-and-pro-accounts",
+  "eval_amount": "https://help.daytraders.com/en/articles/9856878-allowed-number-of-accounts-evaluations-and-pro-accounts",
+  "payout_methods": "https://help.daytraders.com/en/articles/9916619-setting-up-your-payment-method-with-plane-and-signing-the-contract",
+  "purchase_options": [
+    {
+      "name": "Full Account (Trailing Drawdown)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.daytraders.com/en/articles/10131750-evaluation-account-sizes-fees-and-details",
+              "max_drawdown": "https://help.daytraders.com/en/articles/10131750-evaluation-account-sizes-fees-and-details",
+              "daily_drawdown": "https://help.daytraders.com/en/articles/9855052-how-the-trailing-threshold-works",
+              "drawdown_mode": "https://help.daytraders.com/en/articles/9855052-how-the-trailing-threshold-works",
+              "max_position": "https://help.daytraders.com/en/articles/10131750-evaluation-account-sizes-fees-and-details",
+              "micro_scaling": "https://help.daytraders.com/en/articles/10131750-evaluation-account-sizes-fees-and-details",
+              "consistency_rule": "https://help.daytraders.com/en/articles/9917782-consistency-rule",
+              "scaling_rule": "https://daytraders.com/#choose-your-future",
+              "reset_cost": "https://help.daytraders.com/en/articles/9855056-how-to-handle-a-failed-evaluation-account",
+              "price": "https://daytraders.com/#choose-your-future",
+              "minimum_days": "https://help.daytraders.com/en/articles/9855087-evaluation-account-rules",
+              "trading_hours": "https://help.daytraders.com/en/articles/9855087-evaluation-account-rules"
+            },
+            "minimum_days": 2
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.daytraders.com/en/articles/10131750-evaluation-account-sizes-fees-and-details",
+              "daily_drawdown": "https://help.daytraders.com/en/articles/9855052-how-the-trailing-threshold-works",
+              "drawdown_mode": "https://help.daytraders.com/en/articles/9855052-how-the-trailing-threshold-works",
+              "profit_target": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f",
+              "max_position": "https://help.daytraders.com/en/articles/10131750-evaluation-account-sizes-fees-and-details",
+              "micro_scaling": "https://help.daytraders.com/en/articles/10131750-evaluation-account-sizes-fees-and-details",
+              "consistency_rule": "https://help.daytraders.com/en/articles/9917782-consistency-rule",
+              "scaling_rule": "https://daytraders.com/#choose-your-future",
+              "activation_fee": "https://help.daytraders.com/en/articles/9856887-pro-account-activation-and-fees",
+              "reset_cost": "https://help.daytraders.com/en/articles/9856889-what-happens-if-i-fail-a-pro-account",
+              "trading_hours": "https://help.daytraders.com/en/articles/9855087-evaluation-account-rules"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f",
+                "minimum_profit_per_day": "https://help.daytraders.com/en/articles/9855087-evaluation-account-rules",
+                "minimum_payout": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f",
+                "maximum_payout": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f",
+                "payout_split": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Static Account",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.daytraders.com/en/articles/9855034-what-s-the-difference-between-static-and-full-accounts",
+              "max_drawdown": "https://help.daytraders.com/en/articles/9855034-what-s-the-difference-between-static-and-full-accounts",
+              "daily_drawdown": "https://help.daytraders.com/en/articles/9855034-what-s-the-difference-between-static-and-full-accounts",
+              "drawdown_mode": "https://help.daytraders.com/en/articles/9855034-what-s-the-difference-between-static-and-full-accounts",
+              "max_position": "https://help.daytraders.com/en/articles/9855034-what-s-the-difference-between-static-and-full-accounts",
+              "micro_scaling": "https://help.daytraders.com/en/articles/9855034-what-s-the-difference-between-static-and-full-accounts",
+              "consistency_rule": "https://help.daytraders.com/en/articles/9917782-consistency-rule",
+              "scaling_rule": "https://daytraders.com/#choose-your-future",
+              "reset_cost": "https://help.daytraders.com/en/articles/9855056-how-to-handle-a-failed-evaluation-account",
+              "price": "https://daytraders.com/#choose-your-future",
+              "minimum_days": "https://help.daytraders.com/en/articles/9855087-evaluation-account-rules",
+              "trading_hours": "https://help.daytraders.com/en/articles/9855087-evaluation-account-rules"
+            },
+            "minimum_days": 2
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.daytraders.com/en/articles/9855034-what-s-the-difference-between-static-and-full-accounts",
+              "daily_drawdown": "https://help.daytraders.com/en/articles/9855034-what-s-the-difference-between-static-and-full-accounts",
+              "drawdown_mode": "https://help.daytraders.com/en/articles/9855034-what-s-the-difference-between-static-and-full-accounts",
+              "profit_target": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f",
+              "max_position": "https://help.daytraders.com/en/articles/9855034-what-s-the-difference-between-static-and-full-accounts",
+              "micro_scaling": "https://help.daytraders.com/en/articles/9855034-what-s-the-difference-between-static-and-full-accounts",
+              "consistency_rule": "https://help.daytraders.com/en/articles/9917782-consistency-rule",
+              "scaling_rule": "https://daytraders.com/#choose-your-future",
+              "activation_fee": "https://help.daytraders.com/en/articles/9856887-pro-account-activation-and-fees",
+              "reset_cost": "https://help.daytraders.com/en/articles/9856889-what-happens-if-i-fail-a-pro-account",
+              "trading_hours": "https://help.daytraders.com/en/articles/9855087-evaluation-account-rules"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f",
+                "minimum_profit_per_day": "https://help.daytraders.com/en/articles/9855087-evaluation-account-rules",
+                "minimum_payout": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f",
+                "maximum_payout": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f",
+                "payout_split": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "S2F - Straight-to-Funded",
+      "type": "funded",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded",
+              "daily_drawdown": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded",
+              "drawdown_mode": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded",
+              "profit_target": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded",
+              "max_position": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded",
+              "micro_scaling": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded",
+              "consistency_rule": "https://help.daytraders.com/en/articles/9917782-consistency-rule",
+              "scaling_rule": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded",
+              "activation_fee": "https://daytraders.com/#choose-your-future",
+              "reset_cost": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded",
+              "trading_hours": "https://help.daytraders.com/en/articles/9855087-evaluation-account-rules"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f",
+                "minimum_profit_per_day": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded",
+                "minimum_payout": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f",
+                "maximum_payout": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f",
+                "payout_split": "https://help.daytraders.com/en/articles/9856870-payout-faq-pro-accounts-s2f"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,244 @@
+{
+  "name": "Lucid Trading",
+  "platforms": [
+    "Rithmic",
+    "Quantower"
+  ],
+  "funded_amount": 5,
+  "eval_amount": 10,
+  "support_options": {
+    "help_center": "https://lucidtrading.com/contact/",
+    "email": "support@lucidtrading.com",
+    "discord": "https://discord.com/invite/lucidtrading",
+    "live_chat": "24h chat widget on site"
+  },
+  "payout_methods": [
+    "WorkMarket by ADP",
+    "Plaid"
+  ],
+  "purchase_options": [
+    {
+      "name": "LucidTest",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "price": {
+            "amount": 155,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2000,
+            "daily_drawdown": 1200,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 4,
+            "micro_scaling": 40,
+            "consistency_rule": 50,
+            "scaling_rule": "10-micros = 1-mini; no hard breach",
+            "reset_cost": 155,
+            "minimum_days": 2,
+            "trading_hours": "4:45 PM EST - platform auto-flattens, holding past 4:45 does not fail account, trading reopens 6 PM EST"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": 1200,
+            "drawdown_mode": "EOD trailing -> locks at initial trail + $100",
+            "profit_target": null,
+            "max_position": 4,
+            "micro_scaling": 40,
+            "consistency_rule": 35,
+            "scaling_rule": "LucidScale raises DLL to 60 % of best EOD profit",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 10,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:45 PM EST - platform auto-flattens, holding past 4:45 does not fail account, trading reopens 6 PM EST"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 275,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 6000,
+            "max_drawdown": 3000,
+            "daily_drawdown": 1800,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 6,
+            "micro_scaling": 60,
+            "consistency_rule": 50,
+            "scaling_rule": "10-micros = 1-mini; no hard breach",
+            "reset_cost": 275,
+            "minimum_days": 2,
+            "trading_hours": "4:45 PM EST - platform auto-flattens, holding past 4:45 does not fail account, trading reopens 6 PM EST"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "daily_drawdown": 1800,
+            "drawdown_mode": "EOD trailing -> locks at initial trail + $100",
+            "profit_target": null,
+            "max_position": 6,
+            "micro_scaling": 60,
+            "consistency_rule": 35,
+            "scaling_rule": "LucidScale raises DLL to 60 % of best EOD profit",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 10,
+              "minimum_profit_per_day": 250,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:45 PM EST - platform auto-flattens, holding past 4:45 does not fail account, trading reopens 6 PM EST"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 375,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 9000,
+            "max_drawdown": 4500,
+            "daily_drawdown": 2700,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 10,
+            "micro_scaling": 100,
+            "consistency_rule": 50,
+            "scaling_rule": "10-micros = 1-mini; no hard breach",
+            "reset_cost": 375,
+            "minimum_days": 2,
+            "trading_hours": "4:45 PM EST - platform auto-flattens, holding past 4:45 does not fail account, trading reopens 6 PM EST"
+          },
+          "funded_rules": {
+            "max_drawdown": 4500,
+            "daily_drawdown": 2700,
+            "drawdown_mode": "EOD trailing -> locks at initial trail + $100",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": 100,
+            "consistency_rule": 35,
+            "scaling_rule": "LucidScale raises DLL to 60 % of best EOD profit",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 10,
+              "minimum_profit_per_day": 300,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:45 PM EST - platform auto-flattens, holding past 4:45 does not fail account, trading reopens 6 PM EST"
+          }
+        }
+      ]
+    },
+    {
+      "name": "LucidDirect",
+      "type": "funded",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "price": {
+            "amount": 489,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": 1200,
+            "drawdown_mode": "EOD trailing -> locks at initial trail + $100",
+            "profit_target": null,
+            "max_position": 4,
+            "micro_scaling": 40,
+            "consistency_rule": 20,
+            "scaling_rule": "LucidScale raises DLL to 60 % of best EOD profit",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 10,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:45 PM EST - platform auto-flattens, holding past 4:45 does not fail account, trading reopens 6 PM EST"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 699,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 6000,
+            "daily_drawdown": 3600,
+            "drawdown_mode": "EOD trailing -> locks at initial trail + $100",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": 100,
+            "consistency_rule": 20,
+            "scaling_rule": "LucidScale raises DLL to 60 % of best EOD profit",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 10,
+              "minimum_profit_per_day": 300,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:45 PM EST - platform auto-flattens, holding past 4:45 does not fail account, trading reopens 6 PM EST"
+          }
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between LucidTest and LucidDirect?",
+      "answer": "LucidTest is an evaluation program where you need to pass profit targets and drawdown limits to get funded. LucidDirect is a straight-to-funded program where you start trading with real money immediately without an evaluation phase.",
+      "source": "https://lucidtrading.com/"
+    },
+    {
+      "question": "How do payouts work?",
+      "answer": "Payouts are available after 10 trading days with minimum profit requirements. You keep 90% of profits with a 10% split to Lucid. Minimum payout is $500 with no maximum limit.",
+      "source": "https://lucidtrading.com/faq/"
+    },
+    {
+      "question": "What is LucidScale?",
+      "answer": "LucidScale is a feature that automatically raises your daily loss limit to 60% of your best end-of-day profit, allowing for more flexible trading as you become profitable.",
+      "source": "https://lucidtrading.com/"
+    },
+    {
+      "question": "Is there an activation fee?",
+      "answer": "No, there are no activation fees for Lucid accounts. You only pay the monthly subscription for LucidTest or the one-time fee for LucidDirect.",
+      "source": "https://lucidtrading.com/"
+    },
+    {
+      "question": "What happens if I hit the drawdown limit?",
+      "answer": "If you hit the maximum drawdown limit, your account will be closed. For LucidTest, you can restart the evaluation. For LucidDirect, you would need to purchase a new account.",
+      "source": "https://lucidtrading.com/faq/"
+    },
+    {
+      "question": "Can I trade during news events?",
+      "answer": "Yes, Lucid Trading does not have any restrictions on trading news. This applies to both evaluation and funded accounts. The firm just cautions about slippage and velocity logic.",
+      "source": "https://lucidtrading.com/faq/"
+    },
+    {
+      "question": "What is the minimum trading days to pass evaluation?",
+      "answer": "LucidTest evaluation accounts require 2 days minimum due to the 50% consistency rule. Your biggest day cannot exceed 50% of the profit target. LucidDirect funded accounts have no minimum days since they don't have consistency requirements.",
+      "source": "https://lucidtrading.com/faq/"
+    }
+  ]
+}

@@ -1,0 +1,439 @@
+{
+  "name": "Tradeify",
+  "platforms": [
+    "Tradovate",
+    "TradingView",
+    "NinjaTrader"
+  ],
+  "funded_amount": 5,
+  "eval_amount": "Unlimited",
+  "support_options": {
+    "help_center": "https://help.tradeify.co/en/articles/10495964-discord",
+    "email": "support@tradeify.co",
+    "discord": "https://discord.gg/tradeify",
+    "other": "24h live chat available on site"
+  },
+  "payout_methods": [
+    "Rise Pay"
+  ],
+  "purchase_options": [
+    {
+      "name": "Advanced Challenge",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "price": {
+            "amount": 69,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "max_position": 5,
+            "micro_scaling": 10,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 45,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": 10,
+            "consistency_rule": 35,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 125,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 7,
+              "minimum_profit_per_day": 150,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 109,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 6000,
+            "max_drawdown": 3000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "max_position": 10,
+            "micro_scaling": 10,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 69,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": 10,
+            "consistency_rule": 35,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 125,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 7,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 1000,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 129,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 9000,
+            "max_drawdown": 4500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "max_position": 15,
+            "micro_scaling": 10,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 79,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          },
+          "funded_rules": {
+            "max_drawdown": 4500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 15,
+            "micro_scaling": 10,
+            "consistency_rule": 35,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 125,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 7,
+              "minimum_profit_per_day": 250,
+              "minimum_payout": 1500,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Growth Challenge",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "price": {
+            "amount": 139,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2000,
+            "daily_drawdown": 1250,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 5,
+            "micro_scaling": 10,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 85,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": 1250,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": 10,
+            "consistency_rule": 35,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 7,
+              "minimum_profit_per_day": 150,
+              "minimum_payout": 500,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 249,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 6000,
+            "max_drawdown": 3500,
+            "daily_drawdown": 2500,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 10,
+            "micro_scaling": 10,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 169,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          },
+          "funded_rules": {
+            "max_drawdown": 3500,
+            "daily_drawdown": 2500,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": 10,
+            "consistency_rule": 35,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 7,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 1000,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 339,
+            "type": "monthly"
+          },
+          "evaluation_rules": {
+            "profit_target": 9000,
+            "max_drawdown": 5000,
+            "daily_drawdown": 3750,
+            "drawdown_mode": "End of Day Trailing",
+            "max_position": 15,
+            "micro_scaling": 10,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 197,
+            "minimum_days": 1,
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          },
+          "funded_rules": {
+            "max_drawdown": 5000,
+            "daily_drawdown": 3750,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 15,
+            "micro_scaling": 10,
+            "consistency_rule": 35,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 7,
+              "minimum_profit_per_day": 250,
+              "minimum_payout": 1500,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Lightning Funded",
+      "type": "funded",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 270,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 1000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 1,
+            "micro_scaling": 10,
+            "consistency_rule": 20,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 7,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 1000,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 385,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": 1250,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": 10,
+            "consistency_rule": 20,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 7,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 1000,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 540,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 4000,
+            "daily_drawdown": 2500,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 10,
+            "micro_scaling": 10,
+            "consistency_rule": 20,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 7,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 1000,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 729,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 6000,
+            "daily_drawdown": 3750,
+            "drawdown_mode": "End of Day Trailing",
+            "profit_target": null,
+            "max_position": 15,
+            "micro_scaling": 10,
+            "consistency_rule": 20,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 7,
+              "minimum_profit_per_day": null,
+              "minimum_payout": 1000,
+              "maximum_payout": null,
+              "payout_split": "90/10"
+            },
+            "trading_hours": "4:59 PM ET - all positions must be closed before market close, trading day spans 6 PM to 5 PM next day"
+          }
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between Advanced and Lightning Funded?",
+      "answer": "Advanced accounts have daily loss limits and require passing an evaluation phase. Lightning Funded accounts are straight-to-funded with no evaluation phase and no daily loss limits, but have stricter position size limits.",
+      "source": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts"
+    },
+    {
+      "question": "How do payouts work?",
+      "answer": "Payouts are available after 7 trading days with a minimum payout of $1,000. You keep 90% of profits with a 10% split to Tradeify. There are no maximum payout limits.",
+      "source": "https://help.tradeify.co/en/articles/10495932-lightning-funded-account-payout-policy"
+    },
+    {
+      "question": "What is the consistency rule?",
+      "answer": "The consistency rule requires you to maintain profitable trading days. For Lightning Funded accounts, you need to maintain 20% consistency to avoid account restrictions.",
+      "source": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts"
+    },
+    {
+      "question": "Is there an activation fee?",
+      "answer": "It depends on the account type. Advanced Challenge accounts have a $125 activation fee when you pass the evaluation. Growth Challenge accounts have no fee. Lightning Funded accounts have no activation fee since they are straight-to-funded.",
+      "source": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts"
+    },
+    {
+      "question": "What happens if I hit the drawdown limit?",
+      "answer": "If you hit the maximum drawdown limit, your account will be reset. You would need to purchase a new account to continue trading.",
+      "source": "https://help.tradeify.co/en/articles/10495914-advanced-challenge-accounts"
+    },
+    {
+      "question": "Can I trade during news events?",
+      "answer": "Yes, news trading is permitted in both evaluation and funded phases. Tradeify does not have any rules against or guidelines around trading news events. Free reign is allowed, but beware of volatility. Do not use the Daily Loss Limit as a stop-loss during news.",
+      "source": "https://help.tradeify.co/en/articles/10495874-rules-news-trading"
+    },
+    {
+      "question": "What is the minimum trading days to pass evaluation?",
+      "answer": "Tradeify has no minimum trading days requirement for evaluation accounts. You can pass in one day if you meet all profit targets and drawdown requirements. No consistency rule applies until you're funded.",
+      "source": "https://help.tradeify.co/en/articles/10468320-rules-consistency-rule"
+    },
+    {
+      "question": "What are the Lightning Funded payout tiers by account size?",
+      "answer": "First payout when account is up ≥ $1K (25K), $2K (50K), $2.5K (100K), $3K (150K); later tiers shown in the policy table, all at 90% split. Minimum 7 trading days between payouts.",
+      "source": "https://help.tradeify.co/en/articles/10495932-lightning-funded-account-payout-policy"
+    },
+    {
+      "question": "What's the Rise vs Plane payout choice and who should use Plane?",
+      "answer": "Default payouts go via Rise (bank transfer or crypto). Plane is a manual-processing alternative useful for traders unable to access Rise; transfers may take up to 7 days. Contact support to enable it.",
+      "source": "https://help.tradeify.co/en/articles/10495953-what-payout-methods-are-accepted"
+    },
+    {
+      "question": "Why must I log 5 winning days ≥ $150-$250 before first payout?",
+      "answer": "For Advanced/Growth accounts you need at least 7 trading days total, with 5 profitable days of ≥ $150-$250 (varies by size) to satisfy the consistency rule before any withdrawal.",
+      "source": "https://help.tradeify.co/en/articles/11083796-advanced-and-growth-account-payout-policies"
+    }
+  ]
+}

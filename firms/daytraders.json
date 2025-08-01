@@ -1,0 +1,727 @@
+{
+  "name": "Day Traders",
+  "platforms": [
+    "ProjectX",
+    "Rithmic",
+    "Quantower"
+  ],
+  "funded_amount": 5,
+  "eval_amount": 15,
+  "support_options": {
+    "help_center": "https://help.daytraders.com/en/",
+    "discord": "https://discord.com/invite/daytraders",
+    "live_chat": "24/7 live-chat on contact page"
+  },
+  "payout_methods": [
+    "Plane",
+    "Deel"
+  ],
+  "purchase_options": [
+    {
+      "name": "Full Account (Trailing Drawdown)",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 24.9,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 1500,
+            "max_drawdown": 1500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "max_position": 3,
+            "micro_scaling": 30,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 1500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 3,
+            "micro_scaling": 30,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 100,
+              "minimum_payout": 500,
+              "maximum_payout": 1000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 37.9,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "max_position": 5,
+            "micro_scaling": 50,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 2500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": 50,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 500,
+              "maximum_payout": 2000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 75000,
+          "price": {
+            "amount": 44.9,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 4250,
+            "max_drawdown": 2750,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "max_position": 7,
+            "micro_scaling": 70,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 2750,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 7,
+            "micro_scaling": 70,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 500,
+              "maximum_payout": 2500,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 56.9,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 6000,
+            "max_drawdown": 3000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "max_position": 9,
+            "micro_scaling": 90,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 9,
+            "micro_scaling": 90,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 300,
+              "minimum_payout": 500,
+              "maximum_payout": 3000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 69.9,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 8500,
+            "max_drawdown": 4500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "max_position": 12,
+            "micro_scaling": 120,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 4500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 12,
+            "micro_scaling": 120,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 300,
+              "minimum_payout": 500,
+              "maximum_payout": 3500,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 250000,
+          "price": {
+            "amount": 72.9,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 10000,
+            "max_drawdown": 5500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "max_position": 15,
+            "micro_scaling": 150,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 5500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 15,
+            "micro_scaling": 150,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 300,
+              "minimum_payout": 500,
+              "maximum_payout": 4000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 300000,
+          "price": {
+            "amount": 87.9,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 15000,
+            "max_drawdown": 7000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "max_position": 20,
+            "micro_scaling": 200,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 7000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Intraday Trailing",
+            "profit_target": null,
+            "max_position": 20,
+            "micro_scaling": 200,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 400,
+              "minimum_payout": 500,
+              "maximum_payout": 5000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Static Account",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 75,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 2500,
+            "max_drawdown": 750,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "max_position": 2,
+            "micro_scaling": 20,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 750,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "profit_target": null,
+            "max_position": 2,
+            "micro_scaling": 20,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 100,
+              "minimum_payout": 500,
+              "maximum_payout": 1000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 100,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 3750,
+            "max_drawdown": 1000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "max_position": 3,
+            "micro_scaling": 30,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 1000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "profit_target": null,
+            "max_position": 3,
+            "micro_scaling": 30,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 500,
+              "maximum_payout": 1500,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 75000,
+          "price": {
+            "amount": 125,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 4500,
+            "max_drawdown": 1250,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "max_position": 3,
+            "micro_scaling": 30,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 1250,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "profit_target": null,
+            "max_position": 3,
+            "micro_scaling": 30,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 500,
+              "maximum_payout": 2000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 162.5,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 5750,
+            "max_drawdown": 1500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "max_position": 4,
+            "micro_scaling": 40,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 1500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "profit_target": null,
+            "max_position": 4,
+            "micro_scaling": 40,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 300,
+              "minimum_payout": 500,
+              "maximum_payout": 2500,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 200,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 6750,
+            "max_drawdown": 1750,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "max_position": 4,
+            "micro_scaling": 40,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 1750,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "profit_target": null,
+            "max_position": 4,
+            "micro_scaling": 40,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 300,
+              "minimum_payout": 500,
+              "maximum_payout": 3000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 250000,
+          "price": {
+            "amount": 237.5,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 8500,
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "max_position": 5,
+            "micro_scaling": 50,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": 50,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 300,
+              "minimum_payout": 500,
+              "maximum_payout": 4000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 300000,
+          "price": {
+            "amount": 287.5,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 12000,
+            "max_drawdown": 3500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "max_position": 6,
+            "micro_scaling": 60,
+            "consistency_rule": 50,
+            "scaling_rule": "NONE",
+            "reset_cost": null,
+            "minimum_days": 2,
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          },
+          "funded_rules": {
+            "max_drawdown": 3500,
+            "daily_drawdown": null,
+            "drawdown_mode": "Static Drawdown",
+            "profit_target": null,
+            "max_position": 6,
+            "micro_scaling": 60,
+            "consistency_rule": 30,
+            "scaling_rule": "NONE",
+            "activation_fee": 130,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 8,
+              "minimum_profit_per_day": 400,
+              "minimum_payout": 500,
+              "maximum_payout": 5000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        }
+      ]
+    },
+    {
+      "name": "S2F - Straight-to-Funded",
+      "type": "funded",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 240.5,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 1000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End Of Day Trailing",
+            "profit_target": null,
+            "max_position": 1,
+            "micro_scaling": 10,
+            "consistency_rule": 20,
+            "scaling_rule": "NONE",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 10,
+              "minimum_profit_per_day": 100,
+              "minimum_payout": 500,
+              "maximum_payout": 1000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 370.5,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 2500,
+            "daily_drawdown": 1250,
+            "drawdown_mode": "End Of Day Trailing",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": 50,
+            "consistency_rule": 20,
+            "scaling_rule": "NONE",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 10,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 500,
+              "maximum_payout": 2000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        },
+        {
+          "size": 150000,
+          "price": {
+            "amount": 536.25,
+            "type": "one_time"
+          },
+          "funded_rules": {
+            "max_drawdown": 6000,
+            "daily_drawdown": 3750,
+            "drawdown_mode": "End Of Day Trailing",
+            "profit_target": null,
+            "max_position": 12,
+            "micro_scaling": 120,
+            "consistency_rule": 20,
+            "scaling_rule": "NONE",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 10,
+              "minimum_profit_per_day": 300,
+              "minimum_payout": 500,
+              "maximum_payout": 3000,
+              "payout_split": "100/0"
+            },
+            "trading_hours": "4:59 PM ET - evaluation rule, Pro accounts inherit same cut-off"
+          }
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between Full Account and S2F?",
+      "answer": "Full Account requires passing an evaluation phase with profit targets and drawdown limits. S2F (Straight-to-Funded) allows you to start trading with real money immediately without an evaluation phase.",
+      "source": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded"
+    },
+    {
+      "question": "How do payouts work?",
+      "answer": "Payouts are available after 8-10 trading days with minimum profit requirements. You keep 100% of profits with no split to Day Traders. Maximum payouts range from $1,000 to $5,000 depending on account size.",
+      "source": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded"
+    },
+    {
+      "question": "What is the consistency rule?",
+      "answer": "The consistency rule requires you to maintain profitable trading days. For S2F accounts, you need to maintain 20% consistency, while Full Account requires 30% consistency.",
+      "source": "https://help.daytraders.com/en/articles/9917782-consistency-rule"
+    },
+    {
+      "question": "Is there an activation fee?",
+      "answer": "Full Account has a $130 activation fee, while S2F accounts have no activation fees. You only pay the one-time evaluation fee for Full Account or the one-time fee for S2F.",
+      "source": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded"
+    },
+    {
+      "question": "What happens if I hit the drawdown limit?",
+      "answer": "If you hit the maximum drawdown limit, your account will be reset. For Full Account, you can restart the evaluation. For S2F, you would need to purchase a new account.",
+      "source": "https://help.daytraders.com/en/articles/11583644-s2f-straight-to-sim-funded"
+    },
+    {
+      "question": "Can I trade during news events?",
+      "answer": "Yes, news trading is permitted in both evaluation and funded phases. DayTraders allows news trading but advises traders to exercise caution due to increased volatility during news events.",
+      "source": "https://help.daytraders.com/en/articles/9855087-evaluation-account-rules"
+    },
+    {
+      "question": "What is the minimum trading days to pass evaluation?",
+      "answer": "DayTraders requires 2 days minimum to pass evaluation due to the 50% consistency rule. Your biggest day cannot exceed 50% of the profit target, requiring at least 2 trading days to meet this requirement.",
+      "source": "https://help.daytraders.com/en/articles/9855087-evaluation-account-rules"
+    },
+    {
+      "question": "How do I connect Plane for payouts and what ID info is required?",
+      "answer": "From the dashboard choose Plane → fill in citizenship, government-ID number & payout e-mail → click Update → accept the Plane e-mail invite → finish KYC & sign the contract; Plane then pays your withdrawals.",
+      "source": "https://help.daytraders.com/en/articles/9916619-setting-up-your-payment-method-with-plane-and-signing-the-contract"
+    },
+    {
+      "question": "Can I cancel or pause my evaluation subscription?",
+      "answer": "Yes: log in, locate the plan, click Cancel. The invoice auto-terminates and the account disappears; cancellations are permanent.",
+      "source": "https://help.daytraders.com/en/articles/9854865-canceling-your-account-what-to-know-and-how-to-get-it-done"
+    }
+  ]
+}

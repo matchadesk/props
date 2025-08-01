@@ -1,0 +1,118 @@
+{
+  "name": "Lucid Trading Sources",
+  "platforms": "https://lucidtrading.com/faq/",
+  "funded_amount": "https://lucidtrading.com/faq",
+  "eval_amount": "https://lucidtrading.com/faq",
+  "payout_methods": "https://support.lucidtrading.com/en/articles/11404628-what-are-the-payment-and-payout-methods",
+  "purchase_options": [
+    {
+      "name": "LucidTest",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://lucidtrading.com/product/lucidtest-50k/",
+              "max_drawdown": "https://lucidtrading.com/product/lucidtest-50k/",
+              "daily_drawdown": "https://lucidtrading.com/product/lucidtest-50k/",
+              "drawdown_mode": "https://lucidtrading.com/faq/",
+              "max_position": "https://lucidtrading.com/product/lucidtest-50k/",
+              "micro_scaling": "https://lucidtrading.com/product/lucidtest-50k/",
+              "consistency_rule": "https://lucidtrading.com/faq/#consistency-percentage",
+              "scaling_rule": "https://lucidtrading.com/#end-of-day-drawdowns",
+              "reset_cost": "https://lucidtrading.com/faq/#lucidtest-resets",
+              "price": "https://lucidtrading.com/product/lucidtest-50k/",
+              "minimum_days": "https://lucidtrading.com/faq/",
+              "trading_hours": "https://lucidtrading.com/faq"
+            },
+            "minimum_days": 2
+          },
+          "funded_rules": {
+            "sources": {
+              "profit_target": "https://lucidtrading.com/product/lucidtest-50k/",
+              "max_drawdown": "https://support.lucidtrading.com/en/articles/11404720-max-loss-limit-eod-drawdown",
+              "daily_drawdown": "https://lucidtrading.com/faq/#how-does-it-work-in-the-lucidpro-account",
+              "drawdown_mode": "https://support.lucidtrading.com/en/articles/11404720-max-loss-limit-eod-drawdown",
+              "max_position": "https://lucidtrading.com/product/lucidtest-50k/",
+              "micro_scaling": "https://lucidtrading.com/#end-of-day-drawdowns",
+              "consistency_rule": "https://lucidtrading.com/faq/#consistency-percentage",
+              "scaling_rule": "https://lucidtrading.com/faq/#daily-loss-limit",
+              "activation_fee": "https://lucidtrading.com/",
+              "reset_cost": "https://lucidtrading.com/",
+              "trading_hours": "https://lucidtrading.com/faq"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://lucidtrading.com/faq/#minimum-days-traded",
+                "minimum_profit_per_day": "https://lucidtrading.com/faq/#days-with-minimum-profit",
+                "minimum_payout": "https://lucidtrading.com/faq/#payout-minimums-and-maximums",
+                "maximum_payout": "https://lucidtrading.com/faq/#payout-minimums-and-maximums",
+                "payout_split": "https://lucidtrading.com/faq/#profit-split"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "LucidDirect",
+      "type": "funded",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "funded_rules": {
+            "sources": {
+              "profit_target": "https://lucidtrading.com/product/luciddirect-50k/",
+              "max_drawdown": "https://lucidtrading.com/product/luciddirect-50k/",
+              "daily_drawdown": "https://lucidtrading.com/product/luciddirect-50k/",
+              "drawdown_mode": "https://support.lucidtrading.com/en/articles/11404720-max-loss-limit-eod-drawdown",
+              "max_position": "https://lucidtrading.com/product/luciddirect-50k/",
+              "micro_scaling": "https://lucidtrading.com/product/luciddirect-50k/",
+              "consistency_rule": "https://lucidtrading.com/faq/",
+              "scaling_rule": "https://lucidtrading.com/faq/",
+              "activation_fee": "https://lucidtrading.com/#no-activation-fees",
+              "reset_cost": "https://lucidtrading.com/product/luciddirect-50k/",
+              "trading_hours": "https://lucidtrading.com/faq"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://lucidtrading.com/faq/#minimum-days-traded",
+                "minimum_profit_per_day": "https://lucidtrading.com/faq/",
+                "minimum_payout": "https://lucidtrading.com/faq/#payout-minimums-and-maximums",
+                "maximum_payout": "https://lucidtrading.com/faq/#payout-minimums-and-maximums",
+                "payout_split": "https://lucidtrading.com/faq/#profit-split"
+              }
+            }
+          }
+        },
+        {
+          "size": 150000,
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://lucidtrading.com/product/luciddirect-150k/",
+              "daily_drawdown": "https://lucidtrading.com/product/luciddirect-150k/",
+              "drawdown_mode": "https://support.lucidtrading.com/en/articles/11404720-max-loss-limit-eod-drawdown",
+              "max_position": "https://lucidtrading.com/product/luciddirect-150k/",
+              "micro_scaling": "https://lucidtrading.com/product/luciddirect-150k/",
+              "consistency_rule": "https://lucidtrading.com/product/luciddirect-150k/",
+              "scaling_rule": "https://lucidtrading.com/#end-of-day-drawdowns",
+              "activation_fee": "https://lucidtrading.com/#no-activation-fees",
+              "reset_cost": "https://lucidtrading.com/product/luciddirect-150k/",
+              "trading_hours": "https://lucidtrading.com/faq"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://lucidtrading.com/faq/#minimum-days-traded",
+                "minimum_profit_per_day": "https://lucidtrading.com/faq/#days-with-minimum-profit",
+                "minimum_payout": "https://lucidtrading.com/faq/#payout-minimums-and-maximums",
+                "maximum_payout": "https://lucidtrading.com/faq/#payout-minimums-and-maximums",
+                "payout_split": "https://lucidtrading.com/faq/#profit-split"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

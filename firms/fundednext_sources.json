@@ -1,0 +1,104 @@
+{
+  "name": "FundedNext Sources",
+  "platforms": "https://fundednext.com/futures",
+  "funded_amount": "https://helpfutures.fundednext.com/en/articles/10740571-how-many-accounts-can-i-hold-with-fundednext-futures-and-what-is-the-maximum-allocation-available",
+  "eval_amount": "https://helpfutures.fundednext.com/en/articles/10740571-how-many-accounts-can-i-hold-with-fundednext-futures-and-what-is-the-maximum-allocation-available",
+  "payout_methods": "https://helpfutures.fundednext.com/en/articles/10835710-what-are-the-withdrawal-methods",
+  "purchase_options": [
+    {
+      "name": "Rapid Challenge",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://fundednext.com/futures",
+              "max_drawdown": "https://fundednext.com/futures",
+              "daily_drawdown": "https://helpfutures.fundednext.com/en/articles/10747770-daily-loss-limit-vs-maximum-loss-limit-in-fundednext-futures",
+              "drawdown_mode": "https://helpfutures.fundednext.com/en/articles/10747770-daily-loss-limit-vs-maximum-loss-limit-in-fundednext-futures",
+              "max_position": "https://fundednext.com/futures",
+              "micro_scaling": "https://fundednext.com/futures",
+              "consistency_rule": "https://fundednext.com/futures",
+              "scaling_rule": "https://fundednext.com/futures",
+              "reset_cost": "https://fundednext.com/futures",
+              "price": "https://fundednext.com/futures",
+              "minimum_days": "https://helpfutures.fundednext.com/en/articles/10740707-what-are-benchmark-days-at-fundednext-futures",
+              "trading_hours": "https://helpfutures.fundednext.com/en/articles/10725665-does-fundednext-futures-allow-overnight-and-weekend-trade-holding"
+            },
+            "minimum_days": 3
+          },
+          "funded_rules": {
+            "sources": {
+              "profit_target": "https://fundednext.com/futures",
+              "max_drawdown": "https://helpfutures.fundednext.com/en/articles/10740844-what-are-the-loss-limit-rules-in-the-fundednext-account",
+              "drawdown_mode": "https://helpfutures.fundednext.com/en/articles/10740143-what-is-the-maximum-loss-limit-at-fundednext-futures-and-how-does-it-work",
+              "max_position": "https://fundednext.com/futures",
+              "micro_scaling": "https://fundednext.com/futures",
+              "consistency_rule": "https://helpfutures.fundednext.com/en/articles/10819007-what-is-the-eligibility-criteria-for-my-performance-reward",
+              "scaling_rule": "https://fundednext.com/futures",
+              "activation_fee": "https://fundednext.com/futures",
+              "trading_hours": "https://helpfutures.fundednext.com/en/articles/10725665-does-fundednext-futures-allow-overnight-and-weekend-trade-holding"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://helpfutures.fundednext.com/en/articles/10740850-how-often-can-i-withdraw-performance-reward-from-a-fundednext-account",
+                "minimum_profit_per_day": "https://helpfutures.fundednext.com/en/articles/10819007-what-is-the-eligibility-criteria-for-my-performance-reward",
+                "minimum_payout": "https://helpfutures.fundednext.com/en/articles/11864771-what-is-the-performance-reward-in-the-fundednext-account-after-passing-the-fundednext-futures-rapid-challenge",
+                "maximum_payout": "https://helpfutures.fundednext.com/en/articles/11864771-what-is-the-performance-reward-in-the-fundednext-account-after-passing-the-fundednext-futures-rapid-challenge",
+                "payout_split": "https://helpfutures.fundednext.com/en/articles/11864771-what-is-the-performance-reward-in-the-fundednext-account-after-passing-the-fundednext-futures-rapid-challenge"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Legacy Challenge",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://fundednext.com/futures",
+              "max_drawdown": "https://helpfutures.fundednext.com/en/articles/10740143-what-is-the-maximum-loss-limit-at-fundednext-futures-and-how-does-it-work",
+              "daily_drawdown": "https://helpfutures.fundednext.com/en/articles/10740105-what-is-the-daily-loss-limit-at-fundednext-futures-how-do-i-calculate-my-daily-loss-limit",
+              "max_position": "https://fundednext.com/futures",
+              "micro_scaling": "https://fundednext.com/futures",
+              "consistency_rule": "https://helpfutures.fundednext.com/en/articles/10740568-what-are-the-differences-between-a-futures-challenge-and-a-futures-fundednext-account",
+              "scaling_rule": "https://fundednext.com/futures",
+              "reset_cost": "https://helpfutures.fundednext.com/en/articles/10740510-what-are-the-reset-conditions-and-fees-at-fundednext-futures",
+              "price": "https://fundednext.com/futures",
+              "minimum_days": "https://helpfutures.fundednext.com/en/articles/10740707-what-are-benchmark-days-at-fundednext-futures",
+              "trading_hours": "https://helpfutures.fundednext.com/en/articles/10725665-does-fundednext-futures-allow-overnight-and-weekend-trade-holding"
+            },
+            "minimum_days": 3
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://helpfutures.fundednext.com/en/articles/10740143-what-is-the-maximum-loss-limit-at-fundednext-futures-and-how-does-it-work",
+              "daily_drawdown": "https://helpfutures.fundednext.com/en/articles/10740844-what-are-the-loss-limit-rules-in-the-fundednext-account",
+              "drawdown_mode": "https://helpfutures.fundednext.com/en/articles/10740143-what-is-the-maximum-loss-limit-at-fundednext-futures-and-how-does-it-work",
+              "max_position": "https://fundednext.com/futures",
+              "micro_scaling": "https://fundednext.com/futures",
+              "consistency_rule": "https://helpfutures.fundednext.com/en/articles/10819007-what-is-the-eligibility-criteria-for-my-performance-reward",
+              "scaling_rule": "https://fundednext.com/futures",
+              "activation_fee": "https://fundednext.com/futures",
+              "trading_hours": "https://helpfutures.fundednext.com/en/articles/10725665-does-fundednext-futures-allow-overnight-and-weekend-trade-holding"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://helpfutures.fundednext.com/en/articles/10819007-what-is-the-eligibility-criteria-for-my-performance-reward",
+                "minimum_profit_per_day": "https://helpfutures.fundednext.com/en/articles/10749392-what-are-the-performance-reward-eligibility-criteria-for-fundednext-accounts",
+                "minimum_payout": "https://helpfutures.fundednext.com/en/articles/10835749-how-can-i-withdraw-my-performance-reward",
+                "maximum_payout": "https://helpfutures.fundednext.com/en/articles/10835749-how-can-i-withdraw-my-performance-reward",
+                "payout_split": "https://helpfutures.fundednext.com/en/articles/11864712-what-is-the-performance-reward-in-the-fundednext-account-after-passing-the-fundednext-futures-legacy-challenge"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

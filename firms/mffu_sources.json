@@ -1,0 +1,146 @@
+{
+  "name": "My Funded Futures Sources",
+  "platforms": "https://help.myfundedfutures.com/en/articles/8528335-overview-of-supported-platforms-at-mffu",
+  "funded_amount": "https://help.myfundedfutures.com/en/articles/9900041-funded-account-parameters",
+  "eval_amount": "https://help.myfundedfutures.com/en/articles/9900041-funded-account-parameters",
+  "payout_methods": "https://help.myfundedfutures.com/en/articles/11542406-guide-to-your-first-payout-quick-and-easy-process",
+  "purchase_options": [
+    {
+      "name": "Core Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "max_drawdown": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "daily_drawdown": "https://help.myfundedfutures.com/en/articles/8348565-max-eod-trailing",
+              "drawdown_mode": "https://help.myfundedfutures.com/en/articles/8348565-max-eod-trailing",
+              "max_position": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "micro_scaling": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "consistency_rule": "https://help.myfundedfutures.com/en/articles/11542487-consistency-rule",
+              "scaling_rule": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "reset_cost": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "price": "https://help.myfundedfutures.com/en/articles/11819568-changes-at-myfunded-futures",
+              "minimum_days": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "trading_hours": "https://help.myfundedfutures.com/en/articles/9106864-trading-hours"
+            },
+            "minimum_days": 2
+          },
+          "funded_rules": {
+            "sources": {
+              "profit_target": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights",
+              "max_drawdown": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights",
+              "drawdown_mode": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights",
+              "max_position": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights",
+              "micro_scaling": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights",
+              "scaling_rule": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights",
+              "activation_fee": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights",
+              "reset_cost": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "trading_hours": "https://help.myfundedfutures.com/en/articles/9106864-trading-hours"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights",
+                "minimum_profit_per_day": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights",
+                "minimum_payout": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights",
+                "maximum_payout": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights",
+                "payout_split": "https://help.myfundedfutures.com/en/articles/11802648-core-plan-sim-funded-and-live-account-highlights"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Scale Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "max_drawdown": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "drawdown_mode": "https://myfundedfutures.com/how-it-works",
+              "max_position": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "micro_scaling": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "consistency_rule": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "scaling_rule": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "reset_cost": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "minimum_days": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "trading_hours": "https://help.myfundedfutures.com/en/articles/9106864-trading-hours"
+            },
+            "minimum_days": 2
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.myfundedfutures.com/en/articles/11802669-scale-plan-sim-funded-and-live-account-highlights",
+              "drawdown_mode": "https://help.myfundedfutures.com/en/articles/11802669-scale-plan-sim-funded-and-live-account-highlights",
+              "max_position": "https://help.myfundedfutures.com/en/articles/11802669-scale-plan-sim-funded-and-live-account-highlights",
+              "micro_scaling": "https://help.myfundedfutures.com/en/articles/11802669-scale-plan-sim-funded-and-live-account-highlights",
+              "scaling_rule": "https://help.myfundedfutures.com/en/articles/11802669-scale-plan-sim-funded-and-live-account-highlights",
+              "activation_fee": "https://help.myfundedfutures.com/en/articles/11802669-scale-plan-sim-funded-and-live-account-highlights",
+              "reset_cost": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "trading_hours": "https://help.myfundedfutures.com/en/articles/9106864-trading-hours"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.myfundedfutures.com/en/articles/11802669-scale-plan-sim-funded-and-live-account-highlights",
+                "minimum_profit_per_day": "https://help.myfundedfutures.com/en/articles/11802669-scale-plan-sim-funded-and-live-account-highlights",
+                "minimum_payout": "https://help.myfundedfutures.com/en/articles/11802669-scale-plan-sim-funded-and-live-account-highlights",
+                "maximum_payout": "https://help.myfundedfutures.com/en/articles/11802669-scale-plan-sim-funded-and-live-account-highlights",
+                "payout_split": "https://help.myfundedfutures.com/en/articles/11802669-scale-plan-sim-funded-and-live-account-highlights"
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "Pro Plan",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 50000,
+          "evaluation_rules": {
+            "sources": {
+              "profit_target": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "max_drawdown": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "drawdown_mode": "https://myfundedfutures.com/how-it-works",
+              "max_position": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "micro_scaling": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "consistency_rule": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "scaling_rule": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "reset_cost": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "minimum_days": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "trading_hours": "https://help.myfundedfutures.com/en/articles/9106864-trading-hours"
+            },
+            "minimum_days": 2
+          },
+          "funded_rules": {
+            "sources": {
+              "max_drawdown": "https://help.myfundedfutures.com/en/articles/11802674-pro-plan-sim-funded-and-live-account-highlights",
+              "drawdown_mode": "https://help.myfundedfutures.com/en/articles/11802674-pro-plan-sim-funded-and-live-account-highlights",
+              "max_position": "https://help.myfundedfutures.com/en/articles/11802674-pro-plan-sim-funded-and-live-account-highlights",
+              "micro_scaling": "https://help.myfundedfutures.com/en/articles/11802674-pro-plan-sim-funded-and-live-account-highlights",
+              "scaling_rule": "https://help.myfundedfutures.com/en/articles/11802674-pro-plan-sim-funded-and-live-account-highlights",
+              "activation_fee": "https://help.myfundedfutures.com/en/articles/11802674-pro-plan-sim-funded-and-live-account-highlights",
+              "reset_cost": "https://help.myfundedfutures.com/en/articles/11802636-traders-evaluation-simplified",
+              "trading_hours": "https://help.myfundedfutures.com/en/articles/9106864-trading-hours"
+            },
+            "payout_rules": {
+              "sources": {
+                "minimum_days": "https://help.myfundedfutures.com/en/articles/11802674-pro-plan-sim-funded-and-live-account-highlights",
+                "minimum_payout": "https://help.myfundedfutures.com/en/articles/11802674-pro-plan-sim-funded-and-live-account-highlights",
+                "maximum_payout": "https://help.myfundedfutures.com/en/articles/11802674-pro-plan-sim-funded-and-live-account-highlights",
+                "payout_split": "https://help.myfundedfutures.com/en/articles/11802674-pro-plan-sim-funded-and-live-account-highlights"
+              }
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

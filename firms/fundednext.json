@@ -1,0 +1,321 @@
+{
+  "name": "FundedNext Futures",
+  "platforms": [
+    "Tradovate",
+    "NinjaTrader",
+    "TradingView"
+  ],
+  "funded_amount": "$300k total allocation",
+  "eval_amount": "Unlimited",
+  "support_options": {
+    "help_center": "https://help.fundednext.com/en/",
+    "email": "support@fundednext.com",
+    "discord": "https://discord.com/invite/fundednext-945622549373526056",
+    "live_chat": "24/7 live-chat (bottom-right messenger)"
+  },
+  "payout_methods": [
+    "USDT",
+    "USDC",
+    "RiseWorks"
+  ],
+  "purchase_options": [
+    {
+      "name": "Rapid Challenge",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 59,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 1500,
+            "max_drawdown": 1250,
+            "daily_drawdown": null,
+            "max_position": 2,
+            "micro_scaling": 10,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 59,
+            "minimum_days": 3,
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          },
+          "funded_rules": {
+            "max_drawdown": 1250,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing that locks at the initial balance",
+            "profit_target": null,
+            "max_position": 3,
+            "micro_scaling": 15,
+            "consistency_rule": 40,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 100,
+              "minimum_payout": 250,
+              "maximum_payout": 800,
+              "payout_split": "Withdrawal cap of $800 until 5 payouts, then 100% of profits"
+            },
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 99,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "max_position": 3,
+            "micro_scaling": 15,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 99,
+            "minimum_days": 3,
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          },
+          "funded_rules": {
+            "max_drawdown": 2000,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing that locks at the initial balance",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": 25,
+            "consistency_rule": 40,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 100,
+              "minimum_payout": 250,
+              "maximum_payout": 1500,
+              "payout_split": "Withdrawal cap of $1,500 until 5 payouts, then 100% of profits"
+            },
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 249,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 5000,
+            "max_drawdown": 2500,
+            "daily_drawdown": null,
+            "max_position": 5,
+            "micro_scaling": 25,
+            "consistency_rule": null,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 249,
+            "minimum_days": 3,
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          },
+          "funded_rules": {
+            "max_drawdown": 2500,
+            "daily_drawdown": null,
+            "drawdown_mode": "End of Day Trailing that locks at the initial balance",
+            "profit_target": null,
+            "max_position": 7,
+            "micro_scaling": 35,
+            "consistency_rule": 40,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 500,
+              "maximum_payout": 2500,
+              "payout_split": "Withdrawal cap of $2,500 until 5 payouts, then 100% of profits"
+            },
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          }
+        }
+      ]
+    },
+    {
+      "name": "Legacy Challenge",
+      "type": "evaluation",
+      "account_sizes": [
+        {
+          "size": 25000,
+          "price": {
+            "amount": 79,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 1500,
+            "max_drawdown": 1250,
+            "daily_drawdown": 600,
+            "max_position": 2,
+            "micro_scaling": 10,
+            "consistency_rule": 40,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 71.1,
+            "minimum_days": 3,
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          },
+          "funded_rules": {
+            "max_drawdown": 1250,
+            "daily_drawdown": 600,
+            "drawdown_mode": "End of Day Trailing that locks at the initial balance",
+            "profit_target": null,
+            "max_position": 3,
+            "micro_scaling": 15,
+            "consistency_rule": 40,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 100,
+              "minimum_payout": 250,
+              "maximum_payout": 800,
+              "payout_split": "Withdrawal cap of $800 until 5 payouts, then 100% of profits"
+            },
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          }
+        },
+        {
+          "size": 50000,
+          "price": {
+            "amount": 129,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 3000,
+            "max_drawdown": 2500,
+            "daily_drawdown": 1200,
+            "max_position": 3,
+            "micro_scaling": 15,
+            "consistency_rule": 40,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 116.1,
+            "minimum_days": 3,
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          },
+          "funded_rules": {
+            "max_drawdown": 2500,
+            "daily_drawdown": 1200,
+            "drawdown_mode": "End of Day Trailing that locks at the initial balance",
+            "profit_target": null,
+            "max_position": 5,
+            "micro_scaling": 25,
+            "consistency_rule": 40,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 250,
+              "maximum_payout": 1500,
+              "payout_split": "Withdrawal cap of $1,500 until 5 payouts, then 100% of profits"
+            },
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          }
+        },
+        {
+          "size": 100000,
+          "price": {
+            "amount": 279,
+            "type": "one_time"
+          },
+          "evaluation_rules": {
+            "profit_target": 5000,
+            "max_drawdown": 3000,
+            "daily_drawdown": 2400,
+            "max_position": 5,
+            "micro_scaling": 25,
+            "consistency_rule": 40,
+            "scaling_rule": "No scaling requirements",
+            "reset_cost": 251.1,
+            "minimum_days": 3,
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          },
+          "funded_rules": {
+            "max_drawdown": 3000,
+            "daily_drawdown": 2400,
+            "drawdown_mode": "End of Day Trailing that locks at the initial balance",
+            "profit_target": null,
+            "max_position": 7,
+            "micro_scaling": 35,
+            "consistency_rule": 40,
+            "scaling_rule": "No scaling requirements",
+            "activation_fee": 0,
+            "reset_cost": null,
+            "payout_rules": {
+              "minimum_days": 5,
+              "minimum_profit_per_day": 200,
+              "minimum_payout": 500,
+              "maximum_payout": 2500,
+              "payout_split": "Withdrawal cap of $2,500 until 5 payouts, then 100% of profits"
+            },
+            "trading_hours": "3:10 PM CT (4:10 PM ET) - no overnight holding, trading resumes 5 PM CT"
+          }
+        }
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is the difference between Rapid and Legacy accounts?",
+      "answer": "Rapid accounts have no daily loss limit and use end-of-day trailing drawdown, while Legacy accounts have daily loss limits and use intraday trailing drawdown. Rapid accounts are more flexible but require stricter risk management.",
+      "source": "https://helpfutures.fundednext.com/en/articles/10747770-daily-loss-limit-vs-maximum-loss-limit-in-fundednext-futures"
+    },
+    {
+      "question": "How do payouts work?",
+      "answer": "Payouts are available after 5 trading days with minimum profit requirements. The split is 50/50 until you reach 30 Benchmark Days, then you keep 100% of profits. Minimum payouts range from $250 to $500 depending on account size.",
+      "source": "https://fundednext.com/futures"
+    },
+    {
+      "question": "What are Benchmark Days?",
+      "answer": "Benchmark Days are profitable trading days that count toward your 30-day requirement. Once you reach 30 Benchmark Days, your profit split increases from 50/50 to 100% in your favor.",
+      "source": "https://fundednext.com/futures"
+    },
+    {
+      "question": "Is there an activation fee?",
+      "answer": "No, there are no activation fees for FundedNext accounts. You only pay the one-time evaluation fee to start trading.",
+      "source": "https://fundednext.com/futures"
+    },
+    {
+      "question": "What happens if I hit the drawdown limit?",
+      "answer": "If you hit the maximum drawdown limit, your account will be reset. You can purchase a reset for the same price as a new evaluation account.",
+      "source": "https://fundednext.com/futures"
+    },
+    {
+      "question": "What is the consistency rule?",
+      "answer": "FundedNext has a 40% consistency rule. This means a single day's profit cannot make up more than 40% of the total profit target.",
+      "source": "https://fundednext.com/futures"
+    },
+    {
+      "question": "What are the different account types?",
+      "answer": "Rapid accounts have no daily loss limit and use end-of-day trailing drawdown, while Legacy accounts have daily loss limits and use intraday trailing drawdown.",
+      "source": "https://fundednext.com/futures"
+    },
+    {
+      "question": "How do payouts work?",
+      "answer": "Payouts are available after 5 trading days with minimum profit requirements. The split is 50/50 until you reach 30 Benchmark Days, then you keep 100% of profits.",
+      "source": "https://fundednext.com/futures"
+    },
+    {
+      "question": "Can I trade during news events?",
+      "answer": "News trading is allowed in the Challenge Phase. For funded accounts, news trading is permitted but triggers a News-Profit-Split rule with reduced split on profits booked within the event window. High-impact events are those flagged red on the Forex Factory calendar.",
+      "source": "https://help.fundednext.com/en/articles/10701447-is-news-trading-allowed-at-fundednext"
+    },
+    {
+      "question": "What is the minimum trading days to pass evaluation?",
+      "answer": "FundedNext requires 3 days minimum to pass evaluation due to the 40% consistency rule. Your biggest day cannot exceed 40% of the profit target, requiring at least 3 trading days to meet this requirement.",
+      "source": "https://helpfutures.fundednext.com/en/articles/10740707-what-are-benchmark-days-at-fundednext-futures"
+    }
+  ]
+}
