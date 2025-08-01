@@ -94,8 +94,34 @@ export interface FAQItem {
   source?: string;
 }
 
+export interface RulesAndRestrictions {
+  evaluation_consistency: boolean;
+  evaluation_consistency_description: string;
+  funded_consistency: boolean;
+  funded_consistency_description: string;
+  copy_trading: boolean;
+  copy_trading_description: string;
+  algorithmic_trading: boolean;
+  algorithmic_trading_description: string;
+  scalping_hold_time: boolean;
+  scalping_hold_time_description: string;
+  news_trading: boolean;
+  news_trading_description: string;
+  inactivity_rule: boolean;
+  inactivity_rule_description: string;
+  clear_path_to_live: boolean;
+  clear_path_to_live_description: string;
+}
+
 export interface Firm {
   name: string;
+  rating?: number | null;
+  website?: string | null;
+  ceo?: string | null;
+  country?: string | null;
+  since?: number | null;
+  years?: number | null;
+  highlight?: string | null;
   purchase_options: PurchaseOption[];
   platforms: string[];
   funded_amount: string | number;
@@ -114,4 +140,5 @@ export interface Firm {
   payout_methods?: string[];
   payout_methods_source?: string;
   faq?: FAQItem[];
+  rules_and_restrictions?: RulesAndRestrictions;
 } 

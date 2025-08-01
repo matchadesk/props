@@ -1,5 +1,30 @@
 {
   "name": "Lucid Trading",
+  "rating": 4.7,
+  "website": "https://lucidtrading.com",
+  "ceo": "AJ Campanella",
+  "country": "USA",
+  "since": 2025,
+  "years": "< 1",
+  "highlight": "Clear Rules & Real Funding!",
+  "rules_and_restrictions": {
+    "evaluation_consistency": false,
+    "evaluation_consistency_description": "There is no evaluation consistency at Lucid Trading.",
+    "funded_consistency": true,
+    "funded_consistency_description": "Lucid Trading has 35% funded consistency in their LucidPro accounts, and 20% funded consistency in their LucidDirect accounts.",
+    "copy_trading": true,
+    "copy_trading_description": "Copy trading is allowed with Lucid Trading.",
+    "algorithmic_trading": true,
+    "algorithmic_trading_description": "Lucid Trading allows algorithmic trading strategies, but highfrequency trading (HFT) bots are not permitted.",
+    "scalping_hold_time": true,
+    "scalping_hold_time_description": "The micro scalping policy at Lucid Trading states that 50% or more of your profits must come from trades held longer than 5 seconds.",
+    "news_trading": true,
+    "news_trading_description": "News trading is allowed with Lucid Trading.",
+    "inactivity_rule": true,
+    "inactivity_rule_description": "Lucid Trading inactivity rule states that a trader must place a minimum of one trade every 20 days.",
+    "clear_path_to_live": true,
+    "clear_path_to_live_description": "Traders are moved to a LucidLive account under two possible conditions: After completing their final (sixth) payout in LucidPro or LucidDirect, or at the discretion of Lucid Trading, if risk managers determine a trader is ready for live trading before the sixth payout."
+  },
   "platforms": [
     "Rithmic",
     "Quantower"

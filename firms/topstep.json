@@ -1,5 +1,13 @@
 {
   "name": "Topstep",
+  "rating": null,
+  "website": null,
+  "ceo": null,
+  "country": null,
+  "since": null,
+  "years": null,
+  "highlight": null,
+  "rules_and_restrictions": null,
   "platforms": [
     "TopstepX",
     "Quantower"

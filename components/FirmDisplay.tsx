@@ -132,6 +132,12 @@ const FirmDisplay: React.FC<FirmDisplayProps> = ({ firm }) => {
           <div className="text-right flex-1">{renderValue(rules.reset_cost, (val: number | string) => typeof val === 'number' ? formatCurrency(val) : val)}</div>
         </div>
       )}
+      {rules.minimum_days && (
+        <div className="flex justify-between items-start">
+          <span className="text-gray-600 flex-shrink-0 mr-2">{renderClickableLabel("Minimum Days:", rules.sources?.minimum_days)}</span>
+          <div className="text-right flex-1">{renderValue(rules.minimum_days)}</div>
+        </div>
+      )}
       {rules.trading_hours && (
         <div className="flex justify-between items-start">
           <span className="text-gray-600 flex-shrink-0 mr-2">{renderClickableLabel("Trading Hours:", rules.sources?.trading_hours)}</span>
@@ -329,6 +335,287 @@ const FirmDisplay: React.FC<FirmDisplayProps> = ({ firm }) => {
       </div>
     </div>
   );
+
+  const renderCompanyInfoSection = () => {
+    if (!firm.rating && !firm.website && !firm.ceo && !firm.country && !firm.since && !firm.years && !firm.highlight) return null;
+    
+    return (
+      <div className="bg-white rounded-lg p-6 border border-gray-200 shadow-sm">
+        <h3 className="text-xl font-bold text-gray-900 mb-4 flex items-center">
+          <svg className="w-6 h-6 mr-2 text-indigo-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 21V5a2 2 0 00-2-2H7a2 2 0 00-2 2v16m14 0h2m-2 0h-5m-9 0H3m2 0h5M9 7h1m-1 4h1m4-4h1m-1 4h1m-5 10v-5a1 1 0 011-1h2a1 1 0 011 1v5m-4 0h4" />
+          </svg>
+          Company Information
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          {firm.rating && (
+            <div className="bg-gray-50 rounded-lg p-4">
+              <h4 className="text-sm font-semibold text-gray-700 mb-1">Rating</h4>
+              <div className="flex items-center">
+                <span className="text-lg font-bold text-gray-900">{firm.rating}</span>
+                <div className="flex ml-2">
+                  {[...Array(5)].map((_, i) => (
+                    <svg
+                      key={i}
+                      className={`w-4 h-4 ${i < Math.floor(firm.rating!) ? 'text-yellow-400' : 'text-gray-300'}`}
+                      fill="currentColor"
+                      viewBox="0 0 20 20"
+                    >
+                      <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                    </svg>
+                  ))}
+                </div>
+              </div>
+            </div>
+          )}
+          {firm.website && (
+            <div className="bg-gray-50 rounded-lg p-4">
+              <h4 className="text-sm font-semibold text-gray-700 mb-1">Website</h4>
+              <a 
+                href={firm.website} 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-blue-600 hover:text-blue-800 text-sm inline-flex items-center"
+              >
+                Visit Website
+                <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                </svg>
+              </a>
+            </div>
+          )}
+          {firm.ceo && (
+            <div className="bg-gray-50 rounded-lg p-4">
+              <h4 className="text-sm font-semibold text-gray-700 mb-1">CEO</h4>
+              <p className="text-lg font-bold text-gray-900">{firm.ceo}</p>
+            </div>
+          )}
+          {firm.country && (
+            <div className="bg-gray-50 rounded-lg p-4">
+              <h4 className="text-sm font-semibold text-gray-700 mb-1">Country</h4>
+              <p className="text-lg font-bold text-gray-900">{firm.country}</p>
+            </div>
+          )}
+          {firm.since && (
+            <div className="bg-gray-50 rounded-lg p-4">
+              <h4 className="text-sm font-semibold text-gray-700 mb-1">Founded</h4>
+              <p className="text-lg font-bold text-gray-900">{firm.since}</p>
+            </div>
+          )}
+          {firm.years && (
+            <div className="bg-gray-50 rounded-lg p-4">
+              <h4 className="text-sm font-semibold text-gray-700 mb-1">Years Active</h4>
+              <p className="text-lg font-bold text-gray-900">{firm.years} years</p>
+            </div>
+          )}
+          {firm.highlight && (
+            <div className="bg-gray-50 rounded-lg p-4 md:col-span-2 lg:col-span-3">
+              <h4 className="text-sm font-semibold text-gray-700 mb-1">Highlight</h4>
+              <p className="text-lg font-bold text-gray-900">{firm.highlight}</p>
+            </div>
+          )}
+        </div>
+      </div>
+    );
+  };
+
+  const renderRulesAndRestrictionsSection = () => {
+    if (!firm.rules_and_restrictions) return null;
+    
+    const rules = firm.rules_and_restrictions;
+    
+    return (
+      <div className="bg-white rounded-lg p-6 border border-gray-200 shadow-sm">
+        <h3 className="text-xl font-bold text-gray-900 mb-6 flex items-center">
+          <svg className="w-6 h-6 mr-2 text-red-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-.833-1.964-.833-2.732 0L3.732 16.5c-.77.833.192 2.5 1.732 2.5z" />
+          </svg>
+          {firm.name} Rules and Restrictions
+        </h3>
+        
+        <div className="space-y-4">
+          {/* Consistency Section */}
+          <div className="border border-gray-200 rounded-lg">
+            <button className="w-full px-4 py-3 text-left bg-gray-50 hover:bg-gray-100 transition-colors duration-200 flex justify-between items-center">
+              <span className="font-medium text-gray-900">Consistency</span>
+              <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div className="px-4 py-3 border-t border-gray-200">
+              <div className="space-y-3">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    {rules.evaluation_consistency ? (
+                      <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    ) : (
+                      <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </div>
+                  <div className="ml-3">
+                    <h4 className="text-sm font-medium text-gray-900">Evaluation Consistency</h4>
+                    <p className="text-sm text-gray-600 mt-1">{rules.evaluation_consistency_description}</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    {rules.funded_consistency ? (
+                      <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    ) : (
+                      <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </div>
+                  <div className="ml-3">
+                    <h4 className="text-sm font-medium text-gray-900">Funded Consistency</h4>
+                    <p className="text-sm text-gray-600 mt-1">{rules.funded_consistency_description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Trading Strategy & Style Section */}
+          <div className="border border-gray-200 rounded-lg">
+            <button className="w-full px-4 py-3 text-left bg-gray-50 hover:bg-gray-100 transition-colors duration-200 flex justify-between items-center">
+              <span className="font-medium text-gray-900">Trading Strategy & Style</span>
+              <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div className="px-4 py-3 border-t border-gray-200">
+              <div className="space-y-3">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    {rules.copy_trading ? (
+                      <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    ) : (
+                      <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </div>
+                  <div className="ml-3">
+                    <h4 className="text-sm font-medium text-gray-900">Copy Trading</h4>
+                    <p className="text-sm text-gray-600 mt-1">{rules.copy_trading_description}</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    {rules.algorithmic_trading ? (
+                      <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    ) : (
+                      <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </div>
+                  <div className="ml-3">
+                    <h4 className="text-sm font-medium text-gray-900">Algorithmic Trading</h4>
+                    <p className="text-sm text-gray-600 mt-1">{rules.algorithmic_trading_description}</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    {rules.scalping_hold_time ? (
+                      <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    ) : (
+                      <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </div>
+                  <div className="ml-3">
+                    <h4 className="text-sm font-medium text-gray-900">Scalping & Hold Time</h4>
+                    <p className="text-sm text-gray-600 mt-1">{rules.scalping_hold_time_description}</p>
+                  </div>
+                </div>
+
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    {rules.news_trading ? (
+                      <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    ) : (
+                      <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </div>
+                  <div className="ml-3">
+                    <h4 className="text-sm font-medium text-gray-900">News Trading</h4>
+                    <p className="text-sm text-gray-600 mt-1">{rules.news_trading_description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          {/* Miscellaneous Section */}
+          <div className="border border-gray-200 rounded-lg">
+            <button className="w-full px-4 py-3 text-left bg-gray-50 hover:bg-gray-100 transition-colors duration-200 flex justify-between items-center">
+              <span className="font-medium text-gray-900">Miscellaneous</span>
+              <svg className="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
+              </svg>
+            </button>
+            <div className="px-4 py-3 border-t border-gray-200">
+              <div className="space-y-3">
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    {rules.inactivity_rule ? (
+                      <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    ) : (
+                      <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </div>
+                  <div className="ml-3">
+                    <h4 className="text-sm font-medium text-gray-900">Inactivity Rule</h4>
+                    <p className="text-sm text-gray-600 mt-1">{rules.inactivity_rule_description}</p>
+                  </div>
+                </div>
+                <div className="flex items-start">
+                  <div className="flex-shrink-0 mt-1">
+                    {rules.clear_path_to_live ? (
+                      <svg className="w-5 h-5 text-green-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                      </svg>
+                    ) : (
+                      <svg className="w-5 h-5 text-red-500" fill="currentColor" viewBox="0 0 20 20">
+                        <path fillRule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clipRule="evenodd" />
+                      </svg>
+                    )}
+                  </div>
+                  <div className="ml-3">
+                    <h4 className="text-sm font-medium text-gray-900">Clear Path to Live</h4>
+                    <p className="text-sm text-gray-600 mt-1">{rules.clear_path_to_live_description}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    );
+  };
 
   const renderPlatformsSection = () => {
     if (!firm.platforms || firm.platforms.length === 0) return null;
@@ -621,6 +908,8 @@ const FirmDisplay: React.FC<FirmDisplayProps> = ({ firm }) => {
         </div>
         
         <div className="space-y-6">
+          {firm.name !== "General" && renderCompanyInfoSection()}
+          {firm.name !== "General" && renderRulesAndRestrictionsSection()}
           {firm.name !== "General" && renderPlatformsSection()}
           {firm.name !== "General" && renderSupportSection()}
           {firm.name !== "General" && renderPayoutMethodsSection()}
