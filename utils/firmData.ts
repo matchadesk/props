@@ -55,6 +55,44 @@ function mergeSources(firm: Firm, sources: any): Firm {
   return mergedFirm;
 }
 
+// Create URL-friendly firm names
+export function getFirmSlug(firmName: string): string {
+  const slugMap: { [key: string]: string } = {
+    'General': 'general',
+    'Alpha Futures': 'alpha',
+    'Apex Trader Funding': 'apex',
+    'Day Traders': 'daytraders',
+    'FundedNext Futures': 'fundednext',
+    'FundingTicks': 'fundticks',
+    'Lucid Trading': 'lucid',
+    'My Funded Futures': 'mffu',
+    'Take Profit Trader': 'tpt',
+    'Topstep': 'topstep',
+    'Tradeify': 'tradeify',
+  };
+  
+  return slugMap[firmName] || firmName.toLowerCase().replace(/\s+/g, '');
+}
+
+// Get firm name from slug
+function getFirmNameFromSlug(slug: string): string | null {
+  const slugMap: { [key: string]: string } = {
+    'general': 'General',
+    'alpha': 'Alpha Futures',
+    'apex': 'Apex Trader Funding',
+    'daytraders': 'Day Traders',
+    'fundednext': 'FundedNext Futures',
+    'fundticks': 'FundingTicks',
+    'lucid': 'Lucid Trading',
+    'mffu': 'My Funded Futures',
+    'tpt': 'Take Profit Trader',
+    'topstep': 'Topstep',
+    'tradeify': 'Tradeify',
+  };
+  
+  return slugMap[slug] || null;
+}
+
 export function getAllFirms(): Firm[] {
   const firmsDirectory = path.join(process.cwd(), 'firms');
   const firmFiles = fs.readdirSync(firmsDirectory).filter(file => file.endsWith('.json') && !file.includes('_sources'));
@@ -100,4 +138,13 @@ export function getFirmByName(firmName: string): Firm | null {
 export function getFirmNames(): string[] {
   const firms = getAllFirms();
   return firms.map(firm => firm.name);
+}
+
+export function getFirmSlugs(): string[] {
+  const firmNames = getFirmNames();
+  return firmNames.map(name => getFirmSlug(name));
+}
+
+export function getFirmNameFromSlugHelper(slug: string): string | null {
+  return getFirmNameFromSlug(slug);
 } 

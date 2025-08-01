@@ -1,4 +1,4 @@
-import { getFirmByName, getFirmNames } from '../../../utils/firmData';
+import { getFirmByName, getFirmSlugs, getFirmNameFromSlugHelper } from '../../../utils/firmData';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import FirmDisplay from '../../../components/FirmDisplay';
@@ -9,16 +9,22 @@ interface FirmPageProps {
   }>;
 }
 
-// Generate static paths for all firms
+// Generate static paths for all firms using slugs
 export async function generateStaticParams() {
-  const firmNames = getFirmNames();
-  return firmNames.map((name) => ({
-    name: encodeURIComponent(name),
+  const firmSlugs = getFirmSlugs();
+  return firmSlugs.map((slug) => ({
+    name: slug,
   }));
 }
 
 export default async function FirmPage({ params }: FirmPageProps) {
-  const firmName = decodeURIComponent((await params).name);
+  const slug = (await params).name;
+  const firmName = getFirmNameFromSlugHelper(slug);
+  
+  if (!firmName) {
+    notFound();
+  }
+  
   const firm = getFirmByName(firmName);
 
   if (!firm) {

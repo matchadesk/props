@@ -1,4 +1,4 @@
-import { getFirmNames } from '../utils/firmData';
+import { getFirmNames, getFirmSlug } from '../utils/firmData';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -41,7 +41,7 @@ export default function HomePage() {
             return (
               <Link
                 key={firmName}
-                href={`/firm/${encodeURIComponent(firmName)}/`}
+                href={`/firm/${getFirmSlug(firmName)}/`}
                 className="block group"
               >
                 <div className={`rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 p-6 border-2 ${
