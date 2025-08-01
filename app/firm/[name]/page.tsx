@@ -1,4 +1,4 @@
-import { getFirmByName } from '../../../utils/firmData';
+import { getFirmByName, getFirmNames } from '../../../utils/firmData';
 import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import FirmDisplay from '../../../components/FirmDisplay';
@@ -7,6 +7,14 @@ interface FirmPageProps {
   params: Promise<{
     name: string;
   }>;
+}
+
+// Generate static paths for all firms
+export async function generateStaticParams() {
+  const firmNames = getFirmNames();
+  return firmNames.map((name) => ({
+    name: encodeURIComponent(name),
+  }));
 }
 
 export default async function FirmPage({ params }: FirmPageProps) {
